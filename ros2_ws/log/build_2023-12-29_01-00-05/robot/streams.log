@@ -1,0 +1,39 @@
+[0.802s] Invoking command in '/home/ros2_ws/src/robot': PYTHONPATH=/home/ros2_ws/build/robot/prefix_override:/home/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/ros2_ws/build/robot/build install --record /home/ros2_ws/build/robot/install.log --single-version-externally-managed
+[0.972s] running egg_info
+[0.983s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[0.984s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[0.984s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[0.984s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[0.985s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[1.012s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.012s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.013s] running build
+[1.013s] running build_py
+[1.013s] copying robot/motor_node.py -> /home/ros2_ws/build/robot/build/lib/robot
+[1.014s] running install
+[1.014s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.014s] !!
+[1.014s] 
+[1.014s]         ********************************************************************************
+[1.014s]         Please avoid running ``setup.py`` directly.
+[1.014s]         Instead, use pypa/build, pypa/installer or other
+[1.014s]         standards-based tools.
+[1.014s] 
+[1.014s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.014s]         ********************************************************************************
+[1.014s] 
+[1.014s] !!
+[1.014s]   self.initialize_options()
+[1.019s] running install_lib
+[1.031s] copying /home/ros2_ws/build/robot/build/lib/robot/motor_node.py -> /home/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[1.032s] byte-compiling /home/ros2_ws/install/robot/lib/python3.10/site-packages/robot/motor_node.py to motor_node.cpython-310.pyc
+[1.035s] running install_data
+[1.048s] running install_egg_info
+[1.061s] removing '/home/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.062s] Copying ../../build/robot/robot.egg-info to /home/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[1.064s] running install_scripts
+[1.188s] Installing bluetooth script to /home/ros2_ws/install/robot/lib/robot
+[1.188s] Installing motor script to /home/ros2_ws/install/robot/lib/robot
+[1.188s] Installing switch script to /home/ros2_ws/install/robot/lib/robot
+[1.188s] writing list of installed files to '/home/ros2_ws/build/robot/install.log'
+[1.207s] Invoked command in '/home/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/ros2_ws/build/robot/prefix_override:/home/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/ros2_ws/build/robot/build install --record /home/ros2_ws/build/robot/install.log --single-version-externally-managed

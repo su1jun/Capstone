@@ -1,0 +1,34 @@
+docker commit [컨테이너 ID 또는 이름] [새 이미지 이름]:[태그]
+docker login
+docker tag [새 이미지 이름]:[태그] [사용자 이름]/[새 이미지 이름]:[태그]
+docker pull [사용자 이름]/[이미지 이름]:[태그]
+docker tag ros_image:latest su1jun/ros_image:latest
+docker cp [소스 파일 경로] [대상 컨테이너 ID]:[대상 경로]
+docker cp "/mnt/c/Users/qaxsd/OneDrive - SEOULTECH/Capstone/Capstone/ros2_ws" 10b7fb1ab4e8:/home
+docker cp 10b7fb1ab4e8:/home/ros2_ws "/mnt/c/Users/qaxsd/OneDrive - SEOULTECH/Capstone/Capstone"
+docker ps
+
+docker exec -it [대상 컨테이너 ID] [명령어]
+docker exec -it 10b7fb1ab4e8 /bin/bash
+
+docker pull su1jun/ros_image:latest
+docker run -it su1jun/ros_image:latest
+
+sudo systemctl start bluetooth.service
+sudo systemctl restart bluetooth
+sudo nano /etc/bluetooth/main.conf
+
+journalctl -u bluetooth.service -e
+dmesg | tail -n 20
+
+/ 12/29
+sudo apt-get install gpsd gpsd-clients gpsd-tools
+
+sudo gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
+
+# setting
+sudo nano /etc/default/gpsd
+
+#
+sudo service gpsd restart
+sudo service gpsd status

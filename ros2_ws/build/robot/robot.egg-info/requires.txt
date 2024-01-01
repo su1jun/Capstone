@@ -1,0 +1,3 @@
+setuptools
+RPi.GPIO
+serial

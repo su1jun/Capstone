@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000341] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000417] (robot) JobStarted: {'identifier': 'robot'}
+[0.098846] (-) TimerEvent: {}
+[0.199226] (-) TimerEvent: {}
+[0.299592] (-) TimerEvent: {}
+[0.399962] (-) TimerEvent: {}
+[0.500379] (-) TimerEvent: {}
+[0.600707] (-) TimerEvent: {}
+[0.701034] (-) TimerEvent: {}
+[0.801411] (-) TimerEvent: {}
+[0.875845] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/ros2_ws/build/robot/build', 'install', '--record', '/home/ros2_ws/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2_ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': '10b7fb1ab4e8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/install', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ros2_ws/build/robot', 'PYTHONPATH': '/home/ros2_ws/build/robot/prefix_override:/home/ros2_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.901579] (-) TimerEvent: {}
+[1.001976] (-) TimerEvent: {}
+[1.046048] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[1.058441] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[1.059186] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[1.059444] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[1.059523] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[1.059785] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[1.084888] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[1.085595] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[1.085927] (robot) StdoutLine: {'line': b'running build\n'}
+[1.086033] (robot) StdoutLine: {'line': b'running build_py\n'}
+[1.086085] (robot) StdoutLine: {'line': b'copying robot/bluetooth_node.py -> /home/ros2_ws/build/robot/build/lib/robot\n'}
+[1.086630] (robot) StdoutLine: {'line': b'running install\n'}
+[1.087551] (robot) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.087644] (robot) StderrLine: {'line': b'!!\n'}
+[1.087690] (robot) StderrLine: {'line': b'\n'}
+[1.087737] (robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.087778] (robot) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.087818] (robot) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.087859] (robot) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.087899] (robot) StderrLine: {'line': b'\n'}
+[1.087937] (robot) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.087976] (robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.088014] (robot) StderrLine: {'line': b'\n'}
+[1.088052] (robot) StderrLine: {'line': b'!!\n'}
+[1.088091] (robot) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.092764] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[1.102175] (-) TimerEvent: {}
+[1.106870] (robot) StdoutLine: {'line': b'copying /home/ros2_ws/build/robot/build/lib/robot/bluetooth_node.py -> /home/ros2_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[1.107506] (robot) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/install/robot/lib/python3.10/site-packages/robot/bluetooth_node.py to bluetooth_node.cpython-310.pyc\n'}
+[1.108242] (robot) StdoutLine: {'line': b'running install_data\n'}
+[1.120608] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.134187] (robot) StdoutLine: {'line': b"removing '/home/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.134461] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[1.135585] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.202325] (-) TimerEvent: {}
+[1.246083] (robot) StdoutLine: {'line': b'Installing bluetooth script to /home/ros2_ws/install/robot/lib/robot\n'}
+[1.246478] (robot) StdoutLine: {'line': b'Installing motor script to /home/ros2_ws/install/robot/lib/robot\n'}
+[1.246858] (robot) StdoutLine: {'line': b'Installing switch script to /home/ros2_ws/install/robot/lib/robot\n'}
+[1.247277] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/build/robot/install.log'\n"}
+[1.267261] (robot) CommandEnded: {'returncode': 0}
+[1.302583] (-) TimerEvent: {}
+[1.330687] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[1.331416] (-) EventReactorShutdown: {}

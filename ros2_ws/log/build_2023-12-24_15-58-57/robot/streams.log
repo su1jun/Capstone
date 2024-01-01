@@ -1,0 +1,51 @@
+[0.650s] Invoking command in '/home/su1jun/Capstone/ros2_ws/src/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed
+[0.827s] running egg_info
+[0.827s] creating ../../build/robot/robot.egg-info
+[0.838s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[0.838s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[0.838s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[0.838s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[0.839s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.861s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.861s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.862s] running build
+[0.862s] running build_py
+[0.862s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build
+[0.862s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build/lib
+[0.862s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.862s] copying robot/SwitchNode.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.862s] copying robot/__init__.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.862s] copying robot/MotorNode.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.862s] copying robot/const.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.862s] running install
+[0.863s] /home/su1jun/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.863s] !!
+[0.863s] 
+[0.863s]         ********************************************************************************
+[0.863s]         Please avoid running ``setup.py`` directly.
+[0.863s]         Instead, use pypa/build, pypa/installer or other
+[0.863s]         standards-based tools.
+[0.863s] 
+[0.863s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.863s]         ********************************************************************************
+[0.863s] 
+[0.863s] !!
+[0.863s]   self.initialize_options()
+[0.866s] running install_lib
+[0.877s] creating /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.877s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/SwitchNode.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.877s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/__init__.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.877s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/MotorNode.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.878s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/const.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.878s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/SwitchNode.py to SwitchNode.cpython-310.pyc
+[0.878s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc
+[0.878s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/MotorNode.py to MotorNode.cpython-310.pyc
+[0.879s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/const.py to const.cpython-310.pyc
+[0.879s] running install_data
+[0.890s] copying resource/robot -> /home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/packages
+[0.890s] copying package.xml -> /home/su1jun/Capstone/ros2_ws/install/robot/share/robot
+[0.890s] running install_egg_info
+[0.902s] Copying ../../build/robot/robot.egg-info to /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[0.902s] running install_scripts
+[1.005s] writing list of installed files to '/home/su1jun/Capstone/ros2_ws/build/robot/install.log'
+[1.024s] Invoked command in '/home/su1jun/Capstone/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed

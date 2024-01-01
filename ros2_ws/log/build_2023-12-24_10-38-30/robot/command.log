@@ -1,0 +1,6 @@
+Invoking command in '/home/su1jun/Capstone/ros2_ws/build/robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/robot
+Invoked command in '/home/su1jun/Capstone/ros2_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/robot
+Invoking command in '/home/su1jun/Capstone/ros2_ws/build/robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/robot -- -j12 -l12
+Invoked command in '/home/su1jun/Capstone/ros2_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/robot -- -j12 -l12
+Invoking command in '/home/su1jun/Capstone/ros2_ws/build/robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/robot
+Invoked command in '/home/su1jun/Capstone/ros2_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/robot
