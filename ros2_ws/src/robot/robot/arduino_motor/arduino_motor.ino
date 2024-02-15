@@ -5,7 +5,10 @@
 SoftwareSerial BTSerial(BtTxpin, BtRxPin);
 
 // #include <ros.h>
-#include <std_msgs/String.h>
+// #include <SoftwareSerial.h>
+// #define BtTxpin A4
+// #define BtRxPin A5
+// SoftwareSerial BTSerial(BtTxpin, BtRxPin);
 
 const int MotorL_A = 8;
 const int MotorL_B = 9;
@@ -13,11 +16,9 @@ const int MotorL_PWM = 10;
 const int MotorR_PWM = 11;
 const int MotorR_A = 12;
 const int MotorR_B = 13;
+const int FIXED_SPEED = 255
 
-const int FIXED_SPEED = 125
-
-// ros::NodeHandle nh;
-
+ros::NodeHandle nh;
 void motorCallback(const std_msgs::String& msg){
   String command = msg.data.c_str();
 
@@ -94,6 +95,7 @@ void setup() {
 
   Serial.begin(9600);
   BTSerial.begin(9600);
+
   pinMode(MotorL_A, OUTPUT);
   pinMode(MotorL_B, OUTPUT);
   pinMode(MotorR_A, OUTPUT);

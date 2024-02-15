@@ -26,6 +26,7 @@ class BluetoothNode(Node):
             bluetooth_state = self.read_bluetooth()
         except Exception as e:
             self.get_logger().info(f"bluetooth decode err : {e}")
+
         msg = String(data=bluetooth_state)
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % bluetooth_state)
@@ -41,7 +42,6 @@ class BluetoothNode(Node):
     def read_bluetooth(self):
         res = ''
         self.gData = self.bleSerial.readline().decode()
-
         if "go" in self.gData:
             self.gData = ""
             res = "go"
