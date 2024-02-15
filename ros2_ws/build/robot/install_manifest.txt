@@ -1,0 +1,15 @@
+/home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+/home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/environment/ament_prefix_path.sh
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/environment/ament_prefix_path.dsv
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/environment/path.sh
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/environment/path.dsv
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/local_setup.bash
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/local_setup.sh
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/local_setup.zsh
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/local_setup.dsv
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/package.dsv
+/home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/packages/robot
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/cmake/robotConfig.cmake
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/cmake/robotConfig-version.cmake
+/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/package.xml
