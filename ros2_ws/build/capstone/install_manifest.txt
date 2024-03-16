@@ -26,6 +26,7 @@
 /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/online_async_launch.py
 /root/Capstone/ros2_ws/install/capstone/share/capstone/worlds/obstacles.world
 /root/Capstone/ros2_ws/install/capstone/share/capstone/worlds/empty.world
+/root/Capstone/ros2_ws/install/capstone/share/capstone/worlds/test.world
 /root/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/package_run_dependencies/capstone
 /root/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/parent_prefix_path/capstone
 /root/Capstone/ros2_ws/install/capstone/share/capstone/environment/ament_prefix_path.sh

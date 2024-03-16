@@ -5,13 +5,13 @@
 
 
     <xacro:property name="chassis_length" value="0.335"/>
-    <xacro:property name="chassis_width" value="0.265"/>
-    <xacro:property name="chassis_height" value="0.138"/>
+    <xacro:property name="chassis_width" value="0.275"/>
+    <xacro:property name="chassis_height" value="0.168"/>
     <xacro:property name="chassis_mass" value="1.0"/>
-    <xacro:property name="wheel_radius" value="0.033"/>
-    <xacro:property name="wheel_thickness" value="0.026"/>
-    <xacro:property name="wheel_mass" value="0.05"/>
-    <xacro:property name="wheel_offset_x" value="0.226"/>
+    <xacro:property name="wheel_radius" value="0.038"/>
+    <xacro:property name="wheel_thickness" value="0.029"/>
+    <xacro:property name="wheel_mass" value="0.06"/>
+    <xacro:property name="wheel_offset_x" value="0.206"/>
     <xacro:property name="wheel_offset_y" value="0.1485"/>
     <xacro:property name="wheel_offset_z" value="0.01"/>
     <xacro:property name="caster_wheel_radius" value="0.01"/>
@@ -37,6 +37,14 @@
 
     <material name="red">
         <color rgba="1 0 0 1"/>
+    </material>
+
+    <material name="teal">
+        <color rgba="72 141 142 1"/>
+    </material>
+
+    <material name="purple">
+        <color rgba="188 163 202 1"/>
     </material>
 
     <!-- BASE LINK -->
@@ -71,7 +79,7 @@
             <geometry>
                 <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
             </geometry>
-            <material name="orange"/>
+            <material name="teal"/>
         </visual>
         <collision>
             <origin xyz="${chassis_length/2} 0 ${chassis_height/2}"/>
@@ -85,7 +93,7 @@
     </link>
 
     <gazebo reference="chassis">
-        <material>Gazebo/Orange</material>
+        <material>Gazebo/Grean</material>
     </gazebo>
 
     <!-- LEFT WHEEL LINK -->
@@ -102,7 +110,7 @@
             <geometry>
                 <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
             </geometry>
-            <material name="blue"/>
+            <material name="purple"/>
         </visual>
         <collision>
             <geometry>
@@ -115,7 +123,7 @@
     </link>
 
     <gazebo reference="left_wheel">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Purple</material>
     </gazebo>
 
 
@@ -135,7 +143,7 @@
             <geometry>
                 <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
             </geometry>
-            <material name="blue"/>
+            <material name="purple"/>
         </visual>
         <collision>
             <geometry>
@@ -148,7 +156,7 @@
     </link>
 
     <gazebo reference="right_wheel">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Purple</material>
     </gazebo>
 
 
