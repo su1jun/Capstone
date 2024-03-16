@@ -1,6 +1,13 @@
 package.xml
 setup.cfg
 setup.py
+../../build/robot/robot.egg-info/PKG-INFO
+../../build/robot/robot.egg-info/SOURCES.txt
+../../build/robot/robot.egg-info/dependency_links.txt
+../../build/robot/robot.egg-info/entry_points.txt
+../../build/robot/robot.egg-info/requires.txt
+../../build/robot/robot.egg-info/top_level.txt
+../../build/robot/robot.egg-info/zip-safe
 resource/robot
 robot/__init__.py
 robot/bluetooth_node.py
@@ -9,10 +16,6 @@ robot/const.py
 robot/gps_test.py
 robot/motor_node.py
 robot/switch_node.py
-robot.egg-info/PKG-INFO
-robot.egg-info/SOURCES.txt
-robot.egg-info/dependency_links.txt
-robot.egg-info/entry_points.txt
-robot.egg-info/requires.txt
-robot.egg-info/top_level.txt
-robot.egg-info/zip-safe
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,1 +1,2 @@
-/root/Capstone/ros2_ws/build/capstone/ament_cmake_environment_hooks/local_setup.dsv
+source;share/capstone/environment/ament_prefix_path.sh
+source;share/capstone/environment/path.sh
