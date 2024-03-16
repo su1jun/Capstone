@@ -40,11 +40,11 @@
     </material>
 
     <material name="teal">
-        <color rgba="72 141 142 1"/>
+        <color rgba="0.28 0.55 0.56 1"/>
     </material>
 
     <material name="purple">
-        <color rgba="188 163 202 1"/>
+        <color rgba="0.74 0.64 0.79 1"/>
     </material>
 
     <!-- BASE LINK -->
