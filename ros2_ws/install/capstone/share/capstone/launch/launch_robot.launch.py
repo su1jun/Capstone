@@ -1,1 +1,1 @@
-/home/su1jun/Desktop/Capstone/ros2_ws/src/capstone/launch/launch_robot.launch.py
+/root/Capstone/ros2_ws/src/capstone/launch/launch_robot.launch.py

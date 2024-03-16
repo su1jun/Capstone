@@ -1,1 +1,1 @@
-/home/su1jun/Desktop/Capstone/ros2_ws/build/capstone/ament_cmake_core/capstoneConfig-version.cmake
+/root/Capstone/ros2_ws/build/capstone/ament_cmake_core/capstoneConfig-version.cmake

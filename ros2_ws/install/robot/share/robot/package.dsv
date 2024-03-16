@@ -1,6 +1,3 @@
-source;share/robot/hook/cmake_prefix_path.ps1
-source;share/robot/hook/cmake_prefix_path.dsv
-source;share/robot/hook/cmake_prefix_path.sh
 source;share/robot/hook/pythonpath.ps1
 source;share/robot/hook/pythonpath.dsv
 source;share/robot/hook/pythonpath.sh

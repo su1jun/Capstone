@@ -1,1 +1,1 @@
-/home/su1jun/Desktop/Capstone/ros2_ws/src/capstone/launch/online_async_launch.py
+/root/Capstone/ros2_ws/src/capstone/launch/online_async_launch.py
