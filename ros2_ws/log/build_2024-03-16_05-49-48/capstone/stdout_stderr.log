@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/Capstone/ros2_ws/build/capstone
+-- Install configuration: ""
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/gaz_ros2_ctl_use_sim.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/empty.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/gazebo_params.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/view_bot.rviz
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/joystick.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/nav2_params.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/mapper_params_online_async.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/map.rviz
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/my_controllers.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/main.rviz
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/config/twist_mux.yaml
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description/gazebo_control.xacro
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description/face.xacro
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description/inertial_macros.xacro
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description/robot.urdf.xacro
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description/lidar.xacro
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description/ros2_control.xacro
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/description/robot_core.xacro
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/navigation_launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/joystick.launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/launch_sim.launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/rplidar.launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/localization_launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/launch_robot.launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/rsp.launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/launch/online_async_launch.py
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/worlds
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/worlds/obstacles.world
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/worlds/empty.world
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/worlds/test.world
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/package_run_dependencies/capstone
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/parent_prefix_path/capstone
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/environment/ament_prefix_path.sh
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/environment/ament_prefix_path.dsv
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/environment/path.sh
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/environment/path.dsv
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.bash
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.sh
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.zsh
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.dsv
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/package.dsv
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/packages/capstone
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/cmake/capstoneConfig.cmake
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/cmake/capstoneConfig-version.cmake
+-- Installing: /root/Capstone/ros2_ws/install/capstone/share/capstone/package.xml
