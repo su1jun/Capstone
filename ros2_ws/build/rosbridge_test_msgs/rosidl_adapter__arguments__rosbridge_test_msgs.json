@@ -1,0 +1,33 @@
+{
+  "package_name": "rosbridge_test_msgs",
+  "non_idl_tuples": [
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/Num.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestChar.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestDurationArray.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeaderArray.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeader.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeaderTwo.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestTimeArray.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestUInt8.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestUInt8FixedSizeArray16.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestFloat32Array.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestFloat32BoundedArray.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/AddTwoInts.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/SendBytes.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestArrayRequest.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestEmpty.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestMultipleRequestFields.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestMultipleResponseFields.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestNestedService.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestRequestAndResponse.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestRequestOnly.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestResponseOnly.srv",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:action/TestEmpty.action",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:action/TestFeedbackAndResult.action",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:action/TestGoalAndResult.action",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:action/TestGoalFeedbackAndResult.action",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:action/TestGoalOnly.action",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:action/TestMultipleGoalFields.action",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:action/TestResultOnly.action"
+  ]
+}

@@ -1,0 +1,4 @@
+source;share/rosapi_msgs/local_setup.bash
+source;share/rosapi_msgs/local_setup.dsv
+source;share/rosapi_msgs/local_setup.sh
+source;share/rosapi_msgs/local_setup.zsh

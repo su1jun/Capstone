@@ -1,0 +1,75 @@
+[0.030s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_server -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/rosbridge_server
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.084s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.349s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.502s] -- Found launch_testing_ament_cmake: 1.0.5 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.503s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.514s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.520s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.520s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.520s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.520s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.530s] -- Found PythonExtra: .so  
+[0.532s] -- Configuring done
+[0.533s] -- Generating done
+[0.534s] -- Build files have been written to: /home/su1jun/Capstone/ros2_ws/build/rosbridge_server
+[0.537s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_server -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/rosbridge_server
+[0.538s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/rosbridge_server -- -j20 -l20
+[0.563s] Built target ament_cmake_python_copy_rosbridge_server
+[0.651s] running egg_info
+[0.652s] creating rosbridge_server.egg-info
+[0.658s] writing rosbridge_server.egg-info/PKG-INFO
+[0.658s] writing dependency_links to rosbridge_server.egg-info/dependency_links.txt
+[0.658s] writing top-level names to rosbridge_server.egg-info/top_level.txt
+[0.658s] writing manifest file 'rosbridge_server.egg-info/SOURCES.txt'
+[0.677s] reading manifest file 'rosbridge_server.egg-info/SOURCES.txt'
+[0.678s] writing manifest file 'rosbridge_server.egg-info/SOURCES.txt'
+[0.690s] Built target ament_cmake_python_build_rosbridge_server_egg
+[0.695s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/rosbridge_server -- -j20 -l20
+[0.710s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/rosbridge_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/rosbridge_server
+[0.713s] -- Install configuration: ""
+[0.713s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.sh
+[0.713s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/environment/pythonpath.dsv
+[0.713s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server-1.3.2-py3.10.egg-info
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server-1.3.2-py3.10.egg-info/top_level.txt
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server-1.3.2-py3.10.egg-info/SOURCES.txt
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server-1.3.2-py3.10.egg-info/dependency_links.txt
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server-1.3.2-py3.10.egg-info/PKG-INFO
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server/websocket_handler.py
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server/__init__.py
+[0.714s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server/client_manager.py
+[0.729s] Listing '/home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server'...
+[0.729s] Compiling '/home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server/__init__.py'...
+[0.730s] Compiling '/home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server/client_manager.py'...
+[0.730s] Compiling '/home/su1jun/Capstone/ros2_ws/install/rosbridge_server/local/lib/python3.10/dist-packages/rosbridge_server/websocket_handler.py'...
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/ament_index/resource_index/package_run_dependencies/rosbridge_server
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/ament_index/resource_index/parent_prefix_path/rosbridge_server
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.sh
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/environment/ament_prefix_path.dsv
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/environment/path.sh
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/environment/path.dsv
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/local_setup.bash
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/local_setup.sh
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/local_setup.zsh
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/local_setup.dsv
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.dsv
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/ament_index/resource_index/packages/rosbridge_server
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig.cmake
+[0.732s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/cmake/rosbridge_serverConfig-version.cmake
+[0.733s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.xml
+[0.733s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket.py
+[0.733s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/lib/rosbridge_server/rosbridge_websocket
+[0.733s] -- Installing: /home/su1jun/Capstone/ros2_ws/install/rosbridge_server/share/rosbridge_server/launch/rosbridge_websocket_launch.xml
+[0.733s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/rosbridge_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/rosbridge_server

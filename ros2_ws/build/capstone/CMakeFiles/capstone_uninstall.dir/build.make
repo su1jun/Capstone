@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Capstone/ros2_ws/src/capstone
+CMAKE_SOURCE_DIR = /home/su1jun/Capstone/ros2_ws/src/capstone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Capstone/ros2_ws/build/capstone
+CMAKE_BINARY_DIR = /home/su1jun/Capstone/ros2_ws/build/capstone
 
 # Utility rule file for capstone_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/capstone_uninstall.dir/compiler_depend.make
 include CMakeFiles/capstone_uninstall.dir/progress.make
 
 CMakeFiles/capstone_uninstall:
-	/usr/bin/cmake -P /root/Capstone/ros2_ws/build/capstone/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/su1jun/Capstone/ros2_ws/build/capstone/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 capstone_uninstall: CMakeFiles/capstone_uninstall
 capstone_uninstall: CMakeFiles/capstone_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/capstone_uninstall.dir/clean:
 .PHONY : CMakeFiles/capstone_uninstall.dir/clean
 
 CMakeFiles/capstone_uninstall.dir/depend:
-	cd /root/Capstone/ros2_ws/build/capstone && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Capstone/ros2_ws/src/capstone /root/Capstone/ros2_ws/src/capstone /root/Capstone/ros2_ws/build/capstone /root/Capstone/ros2_ws/build/capstone /root/Capstone/ros2_ws/build/capstone/CMakeFiles/capstone_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/su1jun/Capstone/ros2_ws/build/capstone && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/su1jun/Capstone/ros2_ws/src/capstone /home/su1jun/Capstone/ros2_ws/src/capstone /home/su1jun/Capstone/ros2_ws/build/capstone /home/su1jun/Capstone/ros2_ws/build/capstone /home/su1jun/Capstone/ros2_ws/build/capstone/CMakeFiles/capstone_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/capstone_uninstall.dir/depend
 

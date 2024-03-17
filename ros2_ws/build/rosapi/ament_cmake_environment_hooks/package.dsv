@@ -1,0 +1,4 @@
+source;share/rosapi/local_setup.bash
+source;share/rosapi/local_setup.dsv
+source;share/rosapi/local_setup.sh
+source;share/rosapi/local_setup.zsh

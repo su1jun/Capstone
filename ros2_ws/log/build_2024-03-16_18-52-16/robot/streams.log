@@ -1,0 +1,67 @@
+[0.422s] Invoking command in '/home/su1jun/Capstone/ros2_ws/src/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed
+[0.527s] running egg_info
+[0.527s] creating ../../build/robot/robot.egg-info
+[0.533s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[0.533s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[0.533s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[0.533s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[0.533s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[0.534s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.547s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.547s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.547s] running build
+[0.547s] running build_py
+[0.547s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build
+[0.547s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build/lib
+[0.547s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.547s] copying robot/__init__.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.547s] copying robot/switch_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.547s] copying robot/gps_test.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.548s] copying robot/const.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.548s] copying robot/motor_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.548s] copying robot/bluetooth_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.548s] copying robot/bluetooth_test.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[0.548s] running install
+[0.548s] /home/su1jun/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.548s] !!
+[0.548s] 
+[0.548s]         ********************************************************************************
+[0.548s]         Please avoid running ``setup.py`` directly.
+[0.548s]         Instead, use pypa/build, pypa/installer or other
+[0.548s]         standards-based tools.
+[0.548s] 
+[0.548s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.548s]         ********************************************************************************
+[0.548s] 
+[0.548s] !!
+[0.548s]   self.initialize_options()
+[0.551s] running install_lib
+[0.557s] creating /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.557s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/__init__.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.557s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/switch_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.557s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/gps_test.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.557s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/const.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.558s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/motor_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.558s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/bluetooth_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.558s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/bluetooth_test.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[0.558s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc
+[0.558s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/switch_node.py to switch_node.cpython-310.pyc
+[0.558s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/gps_test.py to gps_test.cpython-310.pyc
+[0.558s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/const.py to const.cpython-310.pyc
+[0.559s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/motor_node.py to motor_node.cpython-310.pyc
+[0.559s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/bluetooth_node.py to bluetooth_node.cpython-310.pyc
+[0.560s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/bluetooth_test.py to bluetooth_test.cpython-310.pyc
+[0.560s] running install_data
+[0.567s] creating /home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index
+[0.567s] creating /home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index
+[0.567s] creating /home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/packages
+[0.567s] copying resource/robot -> /home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/packages
+[0.567s] copying package.xml -> /home/su1jun/Capstone/ros2_ws/install/robot/share/robot
+[0.567s] running install_egg_info
+[0.574s] Copying ../../build/robot/robot.egg-info to /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[0.574s] running install_scripts
+[0.648s] Installing bluetooth script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[0.648s] Installing motor script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[0.648s] Installing switch script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[0.648s] writing list of installed files to '/home/su1jun/Capstone/ros2_ws/build/robot/install.log'
+[0.661s] Invoked command in '/home/su1jun/Capstone/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed

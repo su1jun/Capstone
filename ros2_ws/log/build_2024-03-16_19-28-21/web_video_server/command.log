@@ -1,0 +1,2 @@
+Invoking command in '/home/su1jun/Capstone/ros2_ws/build/web_video_server': /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/web_video_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/web_video_server
+Invoked command in '/home/su1jun/Capstone/ros2_ws/build/web_video_server' returned '1': /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/web_video_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/web_video_server

@@ -1,0 +1,1 @@
+Invoking command in '/home/su1jun/Capstone/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/turtlebot3_gazebo

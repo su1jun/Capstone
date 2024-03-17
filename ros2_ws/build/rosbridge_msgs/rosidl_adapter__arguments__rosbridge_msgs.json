@@ -1,0 +1,7 @@
+{
+  "package_name": "rosbridge_msgs",
+  "non_idl_tuples": [
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_msgs:msg/ConnectedClient.msg",
+    "/home/su1jun/Capstone/ros2_ws/src/rosbridge_suite/rosbridge_msgs:msg/ConnectedClients.msg"
+  ]
+}

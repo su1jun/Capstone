@@ -1,0 +1,2 @@
+Invoking command in '/home/su1jun/Capstone/ros2_ws/build/turtlebot3_navigation': /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/turtlebot3_navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/turtlebot3_navigation
+Invoked command in '/home/su1jun/Capstone/ros2_ws/build/turtlebot3_navigation' returned '1': /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/turtlebot3_navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/turtlebot3_navigation
