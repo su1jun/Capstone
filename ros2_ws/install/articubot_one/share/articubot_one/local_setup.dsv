@@ -1,2 +1,1 @@
-source;share/articubot_one/environment/ament_prefix_path.sh
-source;share/articubot_one/environment/path.sh
+/home/su1jun/Capstone/ros2_ws/build/articubot_one/ament_cmake_environment_hooks/local_setup.dsv

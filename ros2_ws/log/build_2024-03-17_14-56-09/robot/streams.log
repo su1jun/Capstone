@@ -1,0 +1,47 @@
+[0.494s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build --no-deps install_data
+[0.639s] running develop
+[0.639s] /home/su1jun/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.639s] !!
+[0.639s] 
+[0.639s]         ********************************************************************************
+[0.639s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.639s]         Instead, use pypa/build, pypa/installer or other
+[0.639s]         standards-based tools.
+[0.639s] 
+[0.639s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.639s]         ********************************************************************************
+[0.639s] 
+[0.639s] !!
+[0.639s]   easy_install.initialize_options(self)
+[0.653s] /home/su1jun/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.653s] !!
+[0.653s] 
+[0.653s]         ********************************************************************************
+[0.653s]         Please avoid running ``setup.py`` directly.
+[0.653s]         Instead, use pypa/build, pypa/installer or other
+[0.653s]         standards-based tools.
+[0.653s] 
+[0.653s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.653s]         ********************************************************************************
+[0.653s] 
+[0.653s] !!
+[0.653s]   self.initialize_options()
+[0.737s] running egg_info
+[0.744s] writing robot.egg-info/PKG-INFO
+[0.744s] writing dependency_links to robot.egg-info/dependency_links.txt
+[0.744s] writing entry points to robot.egg-info/entry_points.txt
+[0.744s] writing requirements to robot.egg-info/requires.txt
+[0.744s] writing top-level names to robot.egg-info/top_level.txt
+[0.758s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[0.758s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[0.766s] running build_ext
+[0.766s] Creating /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)
+[0.766s] Installing bluetooth script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[0.766s] Installing motor script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[0.766s] Installing switch script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[0.767s] 
+[0.767s] Installed /home/su1jun/Capstone/ros2_ws/build/robot
+[0.767s] running install_data
+[0.767s] copying resource/robot -> /home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/packages
+[0.767s] copying package.xml -> /home/su1jun/Capstone/ros2_ws/install/robot/share/robot
+[0.783s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build --no-deps install_data

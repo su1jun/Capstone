@@ -13,9 +13,13 @@ robot/__init__.py
 robot/bluetooth_node.py
 robot/bluetooth_test.py
 robot/const.py
-robot/gps_test.py
 robot/motor_node.py
+robot/motor_node_btl.py
 robot/switch_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+robot.egg-info/PKG-INFO
+robot.egg-info/SOURCES.txt
+robot.egg-info/dependency_links.txt
+robot.egg-info/entry_points.txt
+robot.egg-info/requires.txt
+robot.egg-info/top_level.txt
+robot.egg-info/zip-safe

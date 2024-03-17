@@ -1,2 +1,1 @@
-source;share/turtlebot3_simulations/environment/ament_prefix_path.sh
-source;share/turtlebot3_simulations/environment/path.sh
+/home/su1jun/Capstone/ros2_ws/build/turtlebot3_simulations/ament_cmake_environment_hooks/local_setup.dsv

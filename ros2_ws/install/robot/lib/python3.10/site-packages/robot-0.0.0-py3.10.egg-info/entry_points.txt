@@ -1,4 +1,0 @@
-[console_scripts]
-bluetooth = robot.bluetooth_node:main
-motor = robot.motor_node:main
-switch = robot.switch_node:main
