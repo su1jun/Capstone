@@ -1,0 +1,29 @@
+{
+    "map" : {
+        "num" : 0,
+        "name" : "a",
+        "markerList" : {
+            "maker" : {
+                "num" : 0,
+                "name" : "a",
+                "top" : true,
+                "loc" : {
+                    "o1" : [0, 0, 0],
+                    "r1" : 0,
+                    "o2" : [0, 0, 0]
+                }
+            }
+        }
+    },
+
+    "robot" : {
+        "num" : 0,
+        "address" : "1234",
+        "name" : 0,
+        "loc" : [0, 0, 0],
+        "status" : {
+            
+        },
+        "velocity" : 0
+    }
+}
