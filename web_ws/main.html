@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app" class="h-screen flex flex-col">
+        <!-- App Bar -->
+        <nav id="appbar" class="flex items-center justify-between px-4 py-2 bg-transparent">
+            <div class="flex-1"></div>
+            <div class="relative">
+                <input type="text" id="search" placeholder="검색" class="bg-white rounded-full px-4 py-1 outline-none w-64">
+                <button id="search-btn" class="absolute right-0 top-0 mt-2 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            <button id="user-btn" class="ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </button>
+        </nav>
+
+        <!-- Map -->
+        <div id="map" class="flex-1 bg-gray-200"></div>
+
+        <!-- Tab Bar -->  
+        <div id="tabbar" class="flex justify-between px-8 py-2 bg-white border-t border-gray-300">
+            <button class="tabbar-item">Tab 1</button>
+            <button class="tabbar-item font-bold border-b-2 border-blue-500">Main</button>  
+            <button class="tabbar-item">Tab 3</button>
+        </div>
+    </div>
+
+    <script>
+        // User button click handler
+        document.getElementById('user-btn').addEventListener('click', function() {
+            alert('User drawer opened');
+        });
+
+        // Search input focus handler 
+        document.getElementById('search').addEventListener('focus', function() {
+            alert('Search input focused, show keyboard and recent searches');
+        });
+
+        // Search button click handler
+        document.getElementById('search-btn').addEventListener('click', function() {
+            alert('Searching for: ' + document.getElementById('search').value);
+        });
+
+        // Map click handlers
+        let appbarVisible = true;
+        document.getElementById('map').addEventListener('click', function() {
+            if (appbarVisible) {
+                document.getElementById('appbar').classList.add('hidden');
+                document.getElementById('tabbar').classList.add('hidden');
+            } else {
+                document.getElementById('appbar').classList.remove('hidden');
+                document.getElementById('tabbar').classList.remove('hidden');
+            }
+            appbarVisible = !appbarVisible;
+        });
+
+        // Tab bar click handler
+        document.querySelectorAll('.tabbar-item').forEach(item => {
+            item.addEventListener('click', function() {
+                alert('Navigating to ' + item.textContent);
+            });
+        });
+    </script>
+</body>
+</html>

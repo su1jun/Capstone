@@ -1,4 +1,4 @@
-package org.zerock.b01.controller;
+package org.zerock.capstone.controller;
 
 import lombok.extern.log4j.Log4j2;
 import org.springframework.web.bind.annotation.GetMapping;

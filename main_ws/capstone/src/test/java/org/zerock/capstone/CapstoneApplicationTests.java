@@ -11,19 +11,10 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 @SpringBootTest
-@Log4j2
-public class DataSourceTests {
-
-	@Autowired
-	private DataSource dataSource;
+class CapstoneApplicationTests {
 
 	@Test
-	public void testConnection() throws SQLException {
-
-		@Cleanup
-		Connection con = dataSource.getConnection();
-
-		log.info(con);
+	void contextLoads() {
 	}
 
 }
