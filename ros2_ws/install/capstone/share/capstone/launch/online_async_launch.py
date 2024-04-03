@@ -1,1 +1,0 @@
-/home/su1jun/Capstone/ros2_ws/src/capstone/launch/online_async_launch.py

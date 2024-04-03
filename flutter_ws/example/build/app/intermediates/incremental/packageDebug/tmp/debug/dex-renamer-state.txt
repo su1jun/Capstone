@@ -1,0 +1,4 @@
+#Sun Mar 17 11:31:24 KST 2024
+base.0=/home/su1jun/Capstone/flutter_ws/example/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

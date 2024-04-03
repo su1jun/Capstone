@@ -1,8 +1,0 @@
-source;share/capstone/hook/cmake_prefix_path.ps1
-source;share/capstone/hook/cmake_prefix_path.dsv
-source;share/capstone/hook/cmake_prefix_path.sh
-source;share/capstone/local_setup.bash
-source;share/capstone/local_setup.dsv
-source;share/capstone/local_setup.ps1
-source;share/capstone/local_setup.sh
-source;share/capstone/local_setup.zsh
