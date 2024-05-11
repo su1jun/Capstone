@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vizanti_msgs/srv/RecordRosbag.srv
+// generated code does not contain a copyright notice
+
+
+module vizanti_msgs {
+  module srv {
+    struct RecordRosbag_Request {
+      sequence<string> topics;
+
+      boolean start;
+
+      string path;
+    };
+    struct RecordRosbag_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

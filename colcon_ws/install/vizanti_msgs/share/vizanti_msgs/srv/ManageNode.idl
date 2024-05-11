@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vizanti_msgs/srv/ManageNode.srv
+// generated code does not contain a copyright notice
+
+
+module vizanti_msgs {
+  module srv {
+    struct ManageNode_Request {
+      string node;
+    };
+    struct ManageNode_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

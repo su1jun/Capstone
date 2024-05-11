@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vizanti_msgs/srv/LoadMap.srv
+// generated code does not contain a copyright notice
+
+
+module vizanti_msgs {
+  module srv {
+    struct LoadMap_Request {
+      string file_path;
+
+      string topic;
+    };
+    struct LoadMap_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/vizanti_server/local_setup.bash
+source;share/vizanti_server/local_setup.dsv
+source;share/vizanti_server/local_setup.sh
+source;share/vizanti_server/local_setup.zsh

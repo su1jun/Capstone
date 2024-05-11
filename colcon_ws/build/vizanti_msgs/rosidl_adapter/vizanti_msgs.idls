@@ -1,0 +1,8 @@
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/GetNodeParameters.idl
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/SetNodeParameter.idl
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/SaveMap.idl
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/LoadMap.idl
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/RecordRosbag.idl
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ManageNode.idl
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ListPackages.idl
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ListExecutables.idl

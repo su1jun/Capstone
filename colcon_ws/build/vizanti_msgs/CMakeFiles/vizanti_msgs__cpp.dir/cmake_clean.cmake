@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vizanti_msgs__cpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/get_node_parameters__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/get_node_parameters__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/get_node_parameters__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/list_executables__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/list_executables__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/list_executables__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/list_packages__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/list_packages__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/list_packages__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/load_map__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/load_map__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/load_map__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/manage_node__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/manage_node__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/manage_node__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/record_rosbag__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/record_rosbag__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/record_rosbag__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/save_map__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/save_map__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/save_map__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/set_node_parameter__builder.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/set_node_parameter__struct.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/detail/set_node_parameter__traits.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/list_executables.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/list_packages.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/load_map.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/manage_node.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/record_rosbag.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/save_map.hpp"
+  "rosidl_generator_cpp/vizanti_msgs/srv/set_node_parameter.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/vizanti_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

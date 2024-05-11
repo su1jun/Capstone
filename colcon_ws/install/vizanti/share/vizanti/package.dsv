@@ -1,0 +1,8 @@
+source;share/vizanti/hook/cmake_prefix_path.ps1
+source;share/vizanti/hook/cmake_prefix_path.dsv
+source;share/vizanti/hook/cmake_prefix_path.sh
+source;share/vizanti/local_setup.bash
+source;share/vizanti/local_setup.dsv
+source;share/vizanti/local_setup.ps1
+source;share/vizanti/local_setup.sh
+source;share/vizanti/local_setup.zsh

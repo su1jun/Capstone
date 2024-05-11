@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vizanti_msgs/srv/ListExecutables.srv
+// generated code does not contain a copyright notice
+
+
+module vizanti_msgs {
+  module srv {
+    struct ListExecutables_Request {
+      string package;
+    };
+    struct ListExecutables_Response {
+      sequence<string> executables;
+    };
+  };
+};

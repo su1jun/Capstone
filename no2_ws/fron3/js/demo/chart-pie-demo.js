@@ -14,7 +14,7 @@ var myPieChart = new Chart(ctx, {
       HoverBackgroundColor: ["#4e73df", "#17a673", "#F0768B", "#2c9faf", "#498D8E", "#858796", "#2e59d", "#17a673", "#2c9faf", "#f6c23e", "#e74a3b", "#858796"],
       HoverBorderColor: "rgba(234, 236, 244, 1)",
 
-      data: [237, 438, 765, 432, 574, 0, 0, 0, 0, 0, 0, 0],
+      data: [124, 219, 382, 216, 287, 0, 0, 0, 0, 0, 0, 0],
     }],
   },
   // data: {

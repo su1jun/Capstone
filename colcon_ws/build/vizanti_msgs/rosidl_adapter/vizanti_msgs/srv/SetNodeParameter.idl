@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vizanti_msgs/srv/SetNodeParameter.srv
+// generated code does not contain a copyright notice
+
+
+module vizanti_msgs {
+  module srv {
+    struct SetNodeParameter_Request {
+      string node;
+
+      string param;
+
+      string value;
+    };
+    struct SetNodeParameter_Response {
+      string status;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(vizanti_msgs_IDL_FILES "srv/GetNodeParameters.idl;srv/SetNodeParameter.idl;srv/SaveMap.idl;srv/LoadMap.idl;srv/RecordRosbag.idl;srv/ManageNode.idl;srv/ListPackages.idl;srv/ListExecutables.idl")
+set(vizanti_msgs_INTERFACE_FILES "srv/GetNodeParameters.srv;srv/GetNodeParameters_Request.msg;srv/GetNodeParameters_Response.msg;srv/SetNodeParameter.srv;srv/SetNodeParameter_Request.msg;srv/SetNodeParameter_Response.msg;srv/SaveMap.srv;srv/SaveMap_Request.msg;srv/SaveMap_Response.msg;srv/LoadMap.srv;srv/LoadMap_Request.msg;srv/LoadMap_Response.msg;srv/RecordRosbag.srv;srv/RecordRosbag_Request.msg;srv/RecordRosbag_Response.msg;srv/ManageNode.srv;srv/ManageNode_Request.msg;srv/ManageNode_Response.msg;srv/ListPackages.srv;srv/ListPackages_Request.msg;srv/ListPackages_Response.msg;srv/ListExecutables.srv;srv/ListExecutables_Request.msg;srv/ListExecutables_Response.msg")

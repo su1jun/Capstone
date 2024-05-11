@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vizanti_msgs/srv/GetNodeParameters.srv
+// generated code does not contain a copyright notice
+
+
+module vizanti_msgs {
+  module srv {
+    struct GetNodeParameters_Request {
+      string node;
+    };
+    struct GetNodeParameters_Response {
+      string parameters;
+    };
+  };
+};

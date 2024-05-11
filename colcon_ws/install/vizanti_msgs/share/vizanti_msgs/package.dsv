@@ -1,0 +1,11 @@
+source;share/vizanti_msgs/hook/cmake_prefix_path.ps1
+source;share/vizanti_msgs/hook/cmake_prefix_path.dsv
+source;share/vizanti_msgs/hook/cmake_prefix_path.sh
+source;share/vizanti_msgs/hook/ld_library_path_lib.ps1
+source;share/vizanti_msgs/hook/ld_library_path_lib.dsv
+source;share/vizanti_msgs/hook/ld_library_path_lib.sh
+source;share/vizanti_msgs/local_setup.bash
+source;share/vizanti_msgs/local_setup.dsv
+source;share/vizanti_msgs/local_setup.ps1
+source;share/vizanti_msgs/local_setup.sh
+source;share/vizanti_msgs/local_setup.zsh
