@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: lightgray;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+nav {
+    width: 20%;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav img {
+    width: 100px;
+    height: auto;
+}
+
+nav hr {
+    border: none;
+    height: 1px;
+    background-color: #555;
+    margin: 10px 0;
+}
+
+nav .menu {
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    margin-bottom: 5px;
+}
+
+.nav-item.active {
+    color: white;
+    font-weight: bold;
+}
+
+hr.light {
+    background-color: lightgray;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 8px;
+    background-color: #ccc;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #666;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.search-icon {
+    background-color: white;
+}
+
+.username {
+    margin-right: 10px;
+    color: black;
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
