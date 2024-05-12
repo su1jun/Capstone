@@ -1,5 +1,1 @@
-string node
-string param
-string value
----
-string status
+/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_msgs/srv/SetNodeParameter.srv

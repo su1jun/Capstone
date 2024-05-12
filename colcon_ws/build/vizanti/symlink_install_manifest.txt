@@ -1,0 +1,15 @@
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/ament_index/resource_index/package_run_dependencies/vizanti
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/ament_index/resource_index/parent_prefix_path/vizanti
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/environment/ament_prefix_path.sh
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/environment/ament_prefix_path.dsv
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/environment/path.sh
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/environment/path.dsv
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/local_setup.bash
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/local_setup.sh
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/local_setup.zsh
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/local_setup.dsv
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/package.dsv
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/ament_index/resource_index/packages/vizanti
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/cmake/vizantiConfig.cmake
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/cmake/vizantiConfig-version.cmake
+/home/su1jun/Capstone/colcon_ws/install/vizanti/share/vizanti/package.xml

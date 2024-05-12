@@ -1,6 +1,1 @@
-setup.py
-vizanti_msgs/__init__.py
-vizanti_msgs.egg-info/PKG-INFO
-vizanti_msgs.egg-info/SOURCES.txt
-vizanti_msgs.egg-info/dependency_links.txt
-vizanti_msgs.egg-info/top_level.txt
+/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/ament_cmake_python/vizanti_msgs/vizanti_msgs.egg-info/SOURCES.txt

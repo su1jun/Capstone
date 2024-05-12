@@ -1,0 +1,258 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2_msgs: 0.25.6 (/opt/ros/humble/share/tf2_msgs/cmake)
+-- Found vizanti_msgs: 0.1.0 (/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake)
+-- Found rosbridge_suite: 1.3.2 (/opt/ros/humble/share/rosbridge_suite/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/su1jun/Capstone/colcon_ws/build/vizanti_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//launch/vizanti_rws.launch.py
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//launch/vizanti_server.launch.py
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/add.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/area.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_100.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_20.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_40.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_60.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_80.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_unknown.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/button.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/button_false.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/button_true.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/costmap.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/default_layout.json
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/grid.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/gridcells.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/152.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/16.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/192.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/32.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/512.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/96.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/icon.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/manifest.json
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/image.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/initialpose.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/initialpose.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/joypos.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/joystick.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/map.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/marker.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/markerarray.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/node_kill.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/node_restart.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/nodemgr.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/path.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/pointcloud.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/posearray.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/posewithcovariancestamped.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/range.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/rawmap.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/reconfigure.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_2wd.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_4wd.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_arrow.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_dog.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_hatchback.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_orca.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_pancake.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_rccar.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_sandwich.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_tortoise.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_tuna.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/robotmodel.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbag.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbag_active.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_connected.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_disconnected.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_reconnect.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/satelite.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/scan.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/settings.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_cold.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_hot.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_unknown.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_warm.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/tf.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/tile_error.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/tile_loading.png
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/assets/waypoints.svg
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/css/style.css
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/head.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/iconbar.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/index.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.min.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs_LICENSE.txt
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/lib/quaternion.min.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/lib/quaternionjs_LICENSE.txt
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/lib/roslib.min.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/lib/roslibjs_LICENSE.txt
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/main.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/database.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/elements.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/joystick.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/navsat.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/persistent.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/rosbridge.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/status.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/tf.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/util.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/modules/view.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/js/setup.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_worker.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_icon.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_modal.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_script.js
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_view.html
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/lib/vizanti_server/server.py
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/lib/vizanti_server/service_handler.py
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/ament_index/resource_index/package_run_dependencies/vizanti_server
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/ament_index/resource_index/parent_prefix_path/vizanti_server
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.sh
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/environment/path.sh
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/environment/path.dsv
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/local_setup.bash
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/local_setup.sh
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/local_setup.zsh
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/local_setup.dsv
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/package.dsv
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/ament_index/resource_index/packages/vizanti_server
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig.cmake
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig-version.cmake
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_server/share/vizanti_server/package.xml

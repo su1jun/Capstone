@@ -108,7 +108,11 @@ h3 {
 	overflow-y: hidden;
 	scrollbar-width: none;
 	display: block;
-	position: relative;
+
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
 	transition: height 0.1s;
 	z-index: 10;
 	-ms-overflow-style: none;

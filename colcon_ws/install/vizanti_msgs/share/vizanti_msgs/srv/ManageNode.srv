@@ -1,4 +1,1 @@
-string node
----
-bool success
-string message
+/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_msgs/srv/ManageNode.srv

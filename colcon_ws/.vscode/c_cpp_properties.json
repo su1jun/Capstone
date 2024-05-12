@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/**",
+        "/home/su1jun/ros2_ws/install/web_video_server/include/**",
+        "/home/su1jun/ros2_ws/install/turtlebot3_gazebo/include/**",
+        "/home/su1jun/ros2_ws/install/turtlebot3_fake_node/include/**",
+        "/home/su1jun/ros2_ws/install/ros2_control_demo_example_2/include/**",
+        "/home/su1jun/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/su1jun/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
