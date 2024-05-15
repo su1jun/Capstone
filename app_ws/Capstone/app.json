@@ -8,9 +8,12 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -18,10 +21,34 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "package": "com.su1jun.Capstone",
+      "extra": {
+        "usesCleartextTraffic": true
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "usesCleartextTraffic": true,
+        "projectId": "24d6af77-3663-4728-9a91-55e1bbe4324c"
+      }
+    },
+    "owner": "su1jun",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/24d6af77-3663-4728-9a91-55e1bbe4324c"
+    },
+    "plugins": [
+      "expo-build-properties"
+    ]
   }
 }

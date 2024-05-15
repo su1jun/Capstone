@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { StyleSheet, Text, View, Alert, StatusBar } from 'react-native';
 import { useFonts } from 'expo-font';
 import { WebView } from 'react-native-webview';
