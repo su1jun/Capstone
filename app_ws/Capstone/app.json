@@ -15,7 +15,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "networkRequestsAllowed": true,
+      "infoPlist": {
+        "NSAppTransportSecurity": { "NSAllowsArbitraryLoads": true }
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -27,9 +31,7 @@
         "ACCESS_NETWORK_STATE"
       ],
       "package": "com.su1jun.Capstone",
-      "extra": {
-        "usesCleartextTraffic": true
-      }
+      "usesCleartextTraffic": true
     },
     "web": {
       "favicon": "./assets/favicon.png"

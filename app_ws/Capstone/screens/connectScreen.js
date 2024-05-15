@@ -1,11 +1,44 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ScrollView, View, TextInput, Button, Text, Image, StyleSheet, StatusBar, TouchableOpacity } from 'react-native';
 import { useFonts } from 'expo-font';
 import { LinearGradient } from 'expo-linear-gradient';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const ConnectScreen = ({ navigation }) => {
   const [ip, setIp] = useState('192.168.0.10');
   const [port, setPort] = useState('5000');
+
+    // AsyncStorage를 사용하여 데이터를 가져옵니다.
+    useEffect(() => {
+      const loadStoredData = async () => {
+        try {
+          const storedIp = await AsyncStorage.getItem('@stored_ip');
+          const storedPort = await AsyncStorage.getItem('@stored_port');
+          if (storedIp!== null && storedPort!== null) {
+            setIp(storedIp);
+            setPort(storedPort);
+          }
+        } catch (error) {
+          console.error(error);
+        }
+      };
+      loadStoredData();
+    }, []);
+  
+    // 사용자가 새로운 값을 입력하면 저장소에 저장합니다.
+    const saveValues = async () => {
+      try {
+        await AsyncStorage.setItem('@stored_ip', ip);
+        await AsyncStorage.setItem('@stored_port', port);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+  
+    const handleConnect = () => {
+      navigation.navigate('HomeScreen', { ip, port });
+      saveValues();
+    };
 
   const [fontsLoaded] = useFonts({
     'NoteSans-ExtraBold': require('../assets/fonts/NotoSansKR-ExtraBold.ttf'),
@@ -21,11 +54,6 @@ const ConnectScreen = ({ navigation }) => {
   if (!fontsLoaded) {
     return null;
   }
-
-  const handleConnect = () => {
-    // Pass the IP and port to the HomeScreen
-    navigation.navigate('HomeScreen', { ip, port });
-  };
 
   return (
     <LinearGradient colors={['#448586', '#3B7374', '#36696A']} style={styles.container}>
