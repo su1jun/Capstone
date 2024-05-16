@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ros_container:
+    image: su1jun/ros_image:latest
+    container_name: ros_container
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+      - "2222:22"
+    # network_mode: "host"
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    stdin_open: true
+    tty: true       
