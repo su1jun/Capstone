@@ -1,17 +1,33 @@
 version: '3.8'
-
 services:
-  ros_container:
+  ros_node:
     image: su1jun/ros_image:latest
     container_name: ros_container
     ports:
       - "5000:5000"
       - "5001:5001"
-      - "2222:22"
-    # network_mode: "host"
+      # - "2222:22"
+      # - "14900-15000:14900-15000/udp"
+      # - "32775:32775/udp"
+      # - "34327:34327/udp"
+      # - "35154:35154/udp"
+      # - "35769:35769/udp"
+      # - "35927:35927/udp"
+      # - "36643:36643/udp"
+      # - "38325:38325/udp"
+      # - "39553:39553/udp"
+      # - "39956:39956/udp"
+      # - "41910:41910/udp"
+      # - "44919:44919/udp"
+      # - "46180:46180/udp"
+      # - "48408:48408/udp"
+      # - "51144:51144/udp"
+      # - "54175:54175/udp"
+      # - "58473:58473/udp"
+      # - "60044:60044/udp"
     environment:
       - DISPLAY=${DISPLAY}
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
     stdin_open: true
-    tty: true       
+    tty: true      
