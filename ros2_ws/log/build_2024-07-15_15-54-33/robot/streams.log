@@ -1,0 +1,64 @@
+[1.316s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build
+[2.030s] running develop
+[2.030s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.030s]   warnings.warn(
+[2.327s] Removing /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)
+[2.409s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build
+[2.410s] Invoking command in '/home/su1jun/Capstone/ros2_ws/src/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed install_data --force
+[2.834s] running egg_info
+[2.836s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[2.837s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[2.837s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[2.837s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[2.837s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[2.843s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[2.843s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[2.843s] running build
+[2.843s] running build_py
+[2.843s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build
+[2.843s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build/lib
+[2.843s] creating /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.844s] copying robot/__init__.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.844s] copying robot/switch_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.847s] copying robot/bluetooth_test.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.848s] copying robot/const.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.848s] copying robot/map_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.850s] copying robot/odom_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.851s] copying robot/bluetooth_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.851s] copying robot/motor_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.851s] copying robot/motor_btl_node.py -> /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot
+[2.851s] running install
+[2.854s] running install_lib
+[2.855s] creating /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.855s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/__init__.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.855s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/switch_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.855s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/bluetooth_test.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.855s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/const.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.855s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/map_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.855s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/odom_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.856s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/bluetooth_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.856s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/motor_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.856s] copying /home/su1jun/Capstone/ros2_ws/build/robot/build/lib/robot/motor_btl_node.py -> /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot
+[2.856s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc
+[2.856s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/switch_node.py to switch_node.cpython-310.pyc
+[2.856s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/bluetooth_test.py to bluetooth_test.cpython-310.pyc
+[2.856s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/const.py to const.cpython-310.pyc
+[2.856s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/map_node.py to map_node.cpython-310.pyc
+[2.856s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/odom_node.py to odom_node.cpython-310.pyc
+[2.857s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/bluetooth_node.py to bluetooth_node.cpython-310.pyc
+[2.858s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/motor_node.py to motor_node.cpython-310.pyc
+[2.860s] byte-compiling /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot/motor_btl_node.py to motor_btl_node.cpython-310.pyc
+[2.864s] running install_data
+[2.864s] copying resource/robot -> /home/su1jun/Capstone/ros2_ws/install/robot/share/ament_index/resource_index/packages
+[2.864s] copying package.xml -> /home/su1jun/Capstone/ros2_ws/install/robot/share/robot
+[2.865s] running install_egg_info
+[2.865s] Copying ../../build/robot/robot.egg-info to /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[2.868s] running install_scripts
+[2.905s] Installing bluetooth script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[2.906s] Installing map script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[2.907s] Installing motor script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[2.908s] Installing motor_btl script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[2.909s] Installing odom script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[2.910s] Installing switch script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[2.911s] writing list of installed files to '/home/su1jun/Capstone/ros2_ws/build/robot/install.log'
+[3.259s] Invoked command in '/home/su1jun/Capstone/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed install_data --force

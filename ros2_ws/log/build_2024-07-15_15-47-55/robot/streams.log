@@ -1,0 +1,24 @@
+[1.139s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build --no-deps symlink_data
+[1.448s] running develop
+[1.449s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.449s]   warnings.warn(
+[1.669s] running egg_info
+[1.669s] writing robot.egg-info/PKG-INFO
+[1.670s] writing dependency_links to robot.egg-info/dependency_links.txt
+[1.670s] writing entry points to robot.egg-info/entry_points.txt
+[1.670s] writing requirements to robot.egg-info/requires.txt
+[1.671s] writing top-level names to robot.egg-info/top_level.txt
+[1.672s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[1.673s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[1.675s] running build_ext
+[1.675s] Creating /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)
+[1.676s] Installing bluetooth script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.676s] Installing map script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.677s] Installing motor script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.677s] Installing motor_btl script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.677s] Installing odom script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.677s] Installing switch script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.677s] 
+[1.677s] Installed /home/su1jun/Capstone/ros2_ws/build/robot
+[1.677s] running symlink_data
+[1.722s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build --no-deps symlink_data

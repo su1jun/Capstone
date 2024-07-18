@@ -1,0 +1,368 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found actionlib_msgs: 4.2.4 (/opt/ros/humble/share/actionlib_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/su1jun/Capstone/colcon_ws/build/vizanti_msgs
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_generator_c[0m
+[  1%] Built target vizanti_msgs__cpp
+[  2%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/get_node_parameters__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/set_node_parameter__functions.c.o[0m
+[  3%] Built target ament_cmake_python_symlink_vizanti_msgs
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[  4%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/get_node_parameters__type_support.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp.o[0m
+[  6%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/save_map__functions.c.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/set_node_parameter__type_support.cpp.o[0m
+[  9%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/load_map__functions.c.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/set_node_parameter__type_support.cpp.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/record_rosbag__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/manage_node__functions.c.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/list_packages__functions.c.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/save_map__type_support.cpp.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/list_executables__functions.c.o[0m
+[ 19%] [32m[1mLinking C shared library libvizanti_msgs__rosidl_generator_c.so[0m
+[ 20%] Built target vizanti_msgs__rosidl_generator_c
+[ 21%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/record_rosbag__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/load_map__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/get_node_parameters__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/set_node_parameter__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/record_rosbag__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/manage_node__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/manage_node__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/list_packages__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/save_map__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/list_executables__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/list_packages__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/list_executables__type_support.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_cpp.so[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[ 37%] Built target vizanti_msgs__rosidl_typesupport_cpp
+[ 39%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/record_rosbag__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+running egg_info
+writing vizanti_msgs.egg-info/PKG-INFO
+writing dependency_links to vizanti_msgs.egg-info/dependency_links.txt
+writing top-level names to vizanti_msgs.egg-info/top_level.txt
+[ 41%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/manage_node__type_support.cpp.o[0m
+reading manifest file 'vizanti_msgs.egg-info/SOURCES.txt'
+writing manifest file 'vizanti_msgs.egg-info/SOURCES.txt'
+[ 42%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 42%] Built target ament_cmake_python_build_vizanti_msgs_egg
+[ 43%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/get_node_parameters__type_support_c.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_introspection_c[0m
+[ 44%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/get_node_parameters__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/list_packages__type_support.cpp.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/set_node_parameter__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/save_map__type_support.c.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/load_map__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/list_executables__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/record_rosbag__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/set_node_parameter__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/manage_node__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/list_packages__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/list_executables__type_support.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/save_map__type_support_c.cpp.o[0m
+[ 58%] [32m[1mLinking C shared library libvizanti_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 59%] Built target vizanti_msgs__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_c[0m
+[ 60%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/get_node_parameters__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/set_node_parameter__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/save_map__type_support.cpp.o[0m
+[ 66%] Built target vizanti_msgs__rosidl_typesupport_introspection_cpp
+[ 67%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/load_map__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/record_rosbag__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/record_rosbag__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/manage_node__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/list_packages__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/manage_node__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/list_executables__type_support.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_c.so[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/list_packages__type_support_c.cpp.o[0m
+[ 78%] Built target vizanti_msgs__rosidl_typesupport_c
+[ 79%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/list_executables__type_support_c.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 81%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c
+[ 81%] Built target vizanti_msgs
+[ 82%] Built target vizanti_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_generator_py[0m
+[ 83%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_set_node_parameter_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_get_node_parameters_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_load_map_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_save_map_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_record_rosbag_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_manage_node_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_list_packages_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_list_executables_s.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/libvizanti_msgs__rosidl_generator_py.so[0m
+[ 93%] Built target vizanti_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_c__pyext[0m
+[ 94%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target vizanti_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target vizanti_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/rosidl_interfaces/vizanti_msgs
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__functions.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__type_support.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__builder.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__traits.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/__init__.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/libvizanti_msgs__rosidl_generator_py.so
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/__init__.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter.py
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter_s.c
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.idl
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.srv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Request.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Response.msg
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/package_run_dependencies/vizanti_msgs
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/parent_prefix_path/vizanti_msgs
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/path.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/path.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.bash
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.zsh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.dsv
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/package.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/packages/vizanti_msgs
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/package.xml
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/__init__.py'...
+Listing '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/__init__.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map.py'...
+Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter.py'...
+-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport-noconfig.cmake

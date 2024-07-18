@@ -1,0 +1,34 @@
+[0.346s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial -- -j4 -l4
+[0.465s] [ 28%] Built target serial
+[0.466s] [ 42%] Built target gtest_main
+[0.482s] [ 57%] Built target gtest
+[0.511s] [ 71%] Built target serial_example
+[0.537s] [ 85%] Built target serial-test-timer
+[0.544s] [100%] Built target serial-test
+[0.558s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial -- -j4 -l4
+[0.641s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial
+[0.654s] -- Install configuration: ""
+[0.656s] -- Execute custom install script
+[0.657s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/lib/libserial.a
+[0.657s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/include/serial/serial.h
+[0.658s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/include/serial/v8stdint.h
+[0.659s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[0.659s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[0.660s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.660s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.661s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.662s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.662s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/path.sh
+[0.663s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/path.dsv
+[0.663s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.bash
+[0.664s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.sh
+[0.665s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.zsh
+[0.665s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.dsv
+[0.672s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.dsv
+[0.701s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[0.701s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.701s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.701s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[0.701s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.701s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.xml
+[0.715s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial

@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:25 (find_package):
+  By not providing "Finddynamixel_workbench_toolbox.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "dynamixel_workbench_toolbox", but CMake did
+  not find one.
+
+  Could not find a package configuration file provided by
+  "dynamixel_workbench_toolbox" with any of the following names:
+
+    dynamixel_workbench_toolboxConfig.cmake
+    dynamixel_workbench_toolbox-config.cmake
+
+  Add the installation prefix of "dynamixel_workbench_toolbox" to
+  CMAKE_PREFIX_PATH or set "dynamixel_workbench_toolbox_DIR" to a directory
+  containing one of the above files.  If "dynamixel_workbench_toolbox"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m

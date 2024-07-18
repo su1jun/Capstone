@@ -153,6 +153,7 @@ rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_pa
 rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
 rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp: /opt/ros/humble/share/actionlib_msgs/msg/GoalID.idl

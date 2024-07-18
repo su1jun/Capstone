@@ -1,0 +1,49 @@
+[0.029s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/serial
+[0.055s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.267s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.290s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.401s] -- Configuring done
+[0.442s] -- Generating done
+[0.444s] -- Build files have been written to: /home/su1jun/Capstone/ros2_ws/build/serial
+[0.448s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/serial
+[0.449s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial -- -j4 -l4
+[0.501s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.504s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.513s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.533s] [ 28%] Built target serial
+[0.533s] [ 42%] Built target gtest_main
+[0.539s] [ 57%] Built target gtest
+[0.554s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[0.574s] [ 71%] Built target serial_example
+[0.576s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[0.577s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[0.593s] [ 85%] Built target serial-test-timer
+[0.621s] [100%] Built target serial-test
+[0.635s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial -- -j4 -l4
+[1.008s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial
+[1.018s] -- Install configuration: ""
+[1.018s] -- Execute custom install script
+[1.018s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/lib/libserial.a
+[1.018s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/include/serial/serial.h
+[1.018s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/include/serial/v8stdint.h
+[1.019s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[1.019s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[1.019s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.019s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/path.sh
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/environment/path.dsv
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.bash
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.sh
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.zsh
+[1.020s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/local_setup.dsv
+[1.021s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.dsv
+[1.032s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.032s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.033s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.033s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.033s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.033s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.xml
+[1.041s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial

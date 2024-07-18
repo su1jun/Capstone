@@ -1,0 +1,8 @@
+[console_scripts]
+bluetooth = robot.bluetooth_node:main
+map = robot.map_node:main
+motor = robot.motor_node:main
+motor_btl = robot.motor_btl_node:main
+odom = robot.odom_node:main
+switch = robot.switch_node:main
+

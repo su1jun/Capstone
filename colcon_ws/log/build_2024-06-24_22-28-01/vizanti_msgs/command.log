@@ -1,0 +1,4 @@
+Invoking command in '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/colcon_ws/build/vizanti_msgs -- -j4 -l4
+Invoked command in '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/colcon_ws/build/vizanti_msgs -- -j4 -l4
+Invoking command in '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/colcon_ws/build/vizanti_msgs
+Invoked command in '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/colcon_ws/build/vizanti_msgs

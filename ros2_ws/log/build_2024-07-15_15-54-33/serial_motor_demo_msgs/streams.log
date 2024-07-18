@@ -1,0 +1,184 @@
+[0.028s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs
+[0.053s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.226s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.239s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.333s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.510s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.510s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.510s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.576s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.578s] -- Added test 'lint_cmake' to check CMake code style
+[1.579s] -- Added test 'xmllint' to check XML markup files
+[1.588s] -- Configuring done
+[1.679s] -- Generating done
+[1.684s] -- Build files have been written to: /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs
+[1.698s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs
+[1.699s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[1.888s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_c[0m
+[1.971s] [  2%] Built target serial_motor_demo_msgs__cpp
+[1.976s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[2.014s] [ 12%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[2.036s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c[0m
+[2.045s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c[0m
+[2.049s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.066s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.092s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[2.159s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp[0m
+[2.167s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[2.167s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[2.169s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.189s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.196s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[2.208s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[2.309s] [ 76%] Built target serial_motor_demo_msgs
+[2.426s] [ 78%] Built target serial_motor_demo_msgs__py
+[2.480s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_py[0m
+[2.544s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[2.603s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.637s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.637s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c__pyext[0m
+[2.656s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.703s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[2.708s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[2.865s] running egg_info
+[2.867s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[2.868s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[2.869s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[2.871s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[2.872s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[2.912s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[2.939s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[3.337s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs
+[3.351s] -- Install configuration: ""
+[3.352s] -- Execute custom install script
+[3.353s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[3.353s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[3.353s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[3.355s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.356s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[3.357s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.359s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[3.365s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[3.365s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[3.365s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[3.366s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.367s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.368s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.368s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.368s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[3.368s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[3.372s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.373s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.373s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.373s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.373s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.376s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.376s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[3.376s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[3.376s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[3.376s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[3.377s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[3.378s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[3.378s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[3.378s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[3.381s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[3.381s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[3.382s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[3.383s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[3.383s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[3.383s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[3.383s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[3.388s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[3.388s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.388s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[3.388s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[3.434s] Listing '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[3.434s] Compiling '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py'...
+[3.434s] Listing '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.444s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[3.445s] -- Up-to-date: /home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.448s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs

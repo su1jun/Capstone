@@ -1,0 +1,65 @@
+[0.056s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware:/home/su1jun/Capstone/ros2_ws/install/capstone:/home/su1jun/Capstone/ros2_ws/install/articubot_one:/home/su1jun/Capstone/colcon_ws/install/vizanti:/home/su1jun/Capstone/colcon_ws/install/vizanti_server:/home/su1jun/Capstone/colcon_ws/install/vizanti_demos:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/home/su1jun/Capstone/colcon_ws/install/vizanti_cpp:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[0.129s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.345s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.356s] -- Found serial: 1.2.1 (/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/cmake)
+[0.358s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.409s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.417s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.480s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.524s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.539s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.571s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.583s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.605s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.932s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.950s] -- Configuring done
+[3.994s] -- Generating done
+[3.996s] -- Build files have been written to: /home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino
+[4.029s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[4.030s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[4.052s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[4.054s] [ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[4.059s] [ 42%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[4.065s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[4.494s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[8.773s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[8.964s] [ 85%] Built target fake_robot
+[9.130s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[9.345s] [100%] Built target diffdrive_arduino
+[9.357s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware:/home/su1jun/Capstone/ros2_ws/install/capstone:/home/su1jun/Capstone/ros2_ws/install/articubot_one:/home/su1jun/Capstone/colcon_ws/install/vizanti:/home/su1jun/Capstone/colcon_ws/install/vizanti_server:/home/su1jun/Capstone/colcon_ws/install/vizanti_demos:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/home/su1jun/Capstone/colcon_ws/install/vizanti_cpp:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[9.396s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware:/home/su1jun/Capstone/ros2_ws/install/capstone:/home/su1jun/Capstone/ros2_ws/install/articubot_one:/home/su1jun/Capstone/colcon_ws/install/vizanti:/home/su1jun/Capstone/colcon_ws/install/vizanti_server:/home/su1jun/Capstone/colcon_ws/install/vizanti_demos:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/home/su1jun/Capstone/colcon_ws/install/vizanti_cpp:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino
+[9.409s] -- Install configuration: ""
+[9.410s] -- Execute custom install script
+[9.410s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[9.421s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[9.430s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[9.440s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[9.450s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[9.468s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[9.487s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[9.499s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[9.508s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[9.518s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[9.529s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[9.540s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[9.551s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[9.562s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[9.572s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[9.582s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[9.592s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[9.601s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[9.611s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[9.620s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[9.630s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[9.641s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[9.651s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[9.661s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[9.675s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.687s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[9.699s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[9.709s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[9.729s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware:/home/su1jun/Capstone/ros2_ws/install/capstone:/home/su1jun/Capstone/ros2_ws/install/articubot_one:/home/su1jun/Capstone/colcon_ws/install/vizanti:/home/su1jun/Capstone/colcon_ws/install/vizanti_server:/home/su1jun/Capstone/colcon_ws/install/vizanti_demos:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/home/su1jun/Capstone/colcon_ws/install/vizanti_cpp:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino

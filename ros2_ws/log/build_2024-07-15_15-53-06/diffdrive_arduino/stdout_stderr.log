@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+In file included from [01m[K/home/su1jun/Capstone/ros2_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[01m[K/home/su1jun/Capstone/ros2_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:12:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/types/hardware_interface_status_values.hpp: 그런 파일이나 디렉터리가 없습니다
+   12 | #include [01;31m[K"hardware_interface/types/hardware_interface_status_values.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+In file included from [01m[K/home/su1jun/Capstone/ros2_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[01m[K/home/su1jun/Capstone/ros2_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:11:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/types/hardware_interface_status_values.hpp: 그런 파일이나 디렉터리가 없습니다
+   11 | #include [01;31m[K"hardware_interface/types/hardware_interface_status_values.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

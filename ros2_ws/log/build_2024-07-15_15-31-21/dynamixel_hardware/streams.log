@@ -1,0 +1,4 @@
+[0.026s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware -- -j4 -l4
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[3.887s] [100%] [32m[1mLinking CXX shared library libdynamixel_hardware.so[0m
+[4.071s] [100%] Built target dynamixel_hardware

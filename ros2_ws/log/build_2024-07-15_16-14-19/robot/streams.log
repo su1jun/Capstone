@@ -1,0 +1,26 @@
+[1.017s] Invoking command in '/home/su1jun/Capstone/ros2_ws/src/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed install_data
+[1.382s] running egg_info
+[1.383s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[1.384s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[1.385s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[1.385s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[1.385s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[1.388s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.390s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[1.390s] running build
+[1.390s] running build_py
+[1.391s] running install
+[1.391s] running install_lib
+[1.394s] running install_data
+[1.394s] running install_egg_info
+[1.400s] removing '/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.400s] Copying ../../build/robot/robot.egg-info to /home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[1.402s] running install_scripts
+[1.444s] Installing bluetooth script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.445s] Installing map script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.446s] Installing motor script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.447s] Installing motor_btl script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.448s] Installing odom script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.449s] Installing switch script to /home/su1jun/Capstone/ros2_ws/install/robot/lib/robot
+[1.451s] writing list of installed files to '/home/su1jun/Capstone/ros2_ws/build/robot/install.log'
+[1.733s] Invoked command in '/home/su1jun/Capstone/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/su1jun/Capstone/ros2_ws/build/robot/build install --record /home/su1jun/Capstone/ros2_ws/build/robot/install.log --single-version-externally-managed install_data

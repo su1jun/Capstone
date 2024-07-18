@@ -1,0 +1,2 @@
+[0.025s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/capstone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/capstone -- -j4 -l4
+[0.338s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/capstone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/capstone -- -j4 -l4

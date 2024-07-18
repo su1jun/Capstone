@@ -190,6 +190,7 @@ rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/s
 rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
 rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_cpp/vizanti_msgs/srv/get_node_parameters.hpp: /opt/ros/humble/share/actionlib_msgs/msg/GoalID.idl

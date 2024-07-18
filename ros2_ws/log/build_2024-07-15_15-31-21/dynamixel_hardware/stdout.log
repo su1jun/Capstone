@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware.dir/src/dynamixel_hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdynamixel_hardware.so[0m
+[100%] Built target dynamixel_hardware

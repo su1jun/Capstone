@@ -1,0 +1,54 @@
+[0.042s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/capstone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/capstone -- -j4 -l4
+[0.117s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/capstone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/capstone -- -j4 -l4
+[0.207s] Invoking command in '/home/su1jun/Capstone/ros2_ws/build/capstone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/capstone
+[0.229s] -- Install configuration: ""
+[0.229s] -- Execute custom install script
+[0.229s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/empty.yaml
+[0.229s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/gaz_ros2_ctl_use_sim.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/gazebo_params.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/joystick.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/main.rviz
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/map.rviz
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/mapper_params_online_async.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/mapping_param.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/my_controllers.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/nav2_params.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/twist_mux.yaml
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/config/view_bot.rviz
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/face.xacro
+[0.230s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/gazebo_control.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/inertial_macros.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/lidar.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/odometry.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/robot.urdf.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/robot_core.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/ros2_control.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/description/ros2_control_sim.xacro
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/joystick.launch.py
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/launch_robot.launch.py
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/launch_sim.launch.py
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/localization_launch.py
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/navigation_launch.py
+[0.231s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/online_async_launch.py
+[0.232s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/rplidar.launch.py
+[0.232s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/launch/rsp.launch.py
+[0.232s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/worlds/empty.world
+[0.232s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/worlds/obstacles.world
+[0.233s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/worlds/test.world
+[0.233s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/worlds/test2.world
+[0.233s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/package_run_dependencies/capstone
+[0.233s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/parent_prefix_path/capstone
+[0.233s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/environment/ament_prefix_path.sh
+[0.233s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/environment/ament_prefix_path.dsv
+[0.233s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/environment/path.sh
+[0.234s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/environment/path.dsv
+[0.234s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.bash
+[0.234s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.sh
+[0.234s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.zsh
+[0.234s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/local_setup.dsv
+[0.234s] -- Symlinking: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.dsv
+[0.292s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/ament_index/resource_index/packages/capstone
+[0.292s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/cmake/capstoneConfig.cmake
+[0.292s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/cmake/capstoneConfig-version.cmake
+[0.292s] -- Up-to-date symlink: /home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.xml
+[0.302s] Invoked command in '/home/su1jun/Capstone/ros2_ws/build/capstone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/capstone

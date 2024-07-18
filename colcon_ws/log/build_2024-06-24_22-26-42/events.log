@@ -1,0 +1,603 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (vizanti_cpp) JobQueued: {'identifier': 'vizanti_cpp', 'dependencies': OrderedDict()}
+[0.000370] (vizanti_msgs) JobQueued: {'identifier': 'vizanti_msgs', 'dependencies': OrderedDict()}
+[0.000391] (vizanti_demos) JobQueued: {'identifier': 'vizanti_demos', 'dependencies': OrderedDict([('vizanti_msgs', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs')])}
+[0.000412] (vizanti_server) JobQueued: {'identifier': 'vizanti_server', 'dependencies': OrderedDict([('vizanti_msgs', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs')])}
+[0.000432] (vizanti) JobQueued: {'identifier': 'vizanti', 'dependencies': OrderedDict([('vizanti_msgs', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs'), ('vizanti_server', '/home/su1jun/Capstone/colcon_ws/install/vizanti_server')])}
+[0.000456] (vizanti_msgs) JobStarted: {'identifier': 'vizanti_msgs'}
+[0.008464] (vizanti_cpp) JobStarted: {'identifier': 'vizanti_cpp'}
+[0.014228] (vizanti_msgs) JobProgress: {'identifier': 'vizanti_msgs', 'progress': 'cmake'}
+[0.015739] (vizanti_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs'], 'cwd': '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'su1jun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/su1jun'), ('OLDPWD', '/home/su1jun/Capstone'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'su1jun'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'su1jun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chateery:@/tmp/.ICE-unix/1486,unix/chateery:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ab67cd8c_ede3_4ed8_9e63_c736b0656a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7FS3P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.020001] (vizanti_cpp) JobProgress: {'identifier': 'vizanti_cpp', 'progress': 'cmake'}
+[0.021451] (vizanti_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/colcon_ws/install/vizanti_cpp'], 'cwd': '/home/su1jun/Capstone/colcon_ws/build/vizanti_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'su1jun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/su1jun'), ('OLDPWD', '/home/su1jun/Capstone'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'su1jun'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'su1jun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chateery:@/tmp/.ICE-unix/1486,unix/chateery:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ab67cd8c_ede3_4ed8_9e63_c736b0656a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7FS3P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/su1jun/Capstone/colcon_ws/build/vizanti_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.077235] (vizanti_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.077686] (vizanti_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099476] (-) TimerEvent: {}
+[0.199826] (-) TimerEvent: {}
+[0.211206] (vizanti_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.211392] (vizanti_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.231708] (vizanti_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.232011] (vizanti_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.238366] (vizanti_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.243157] (vizanti_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.273442] (vizanti_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.275763] (vizanti_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.282493] (vizanti_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.283582] (vizanti_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.297527] (vizanti_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299928] (-) TimerEvent: {}
+[0.312485] (vizanti_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.313600] (vizanti_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.374729] (vizanti_msgs) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.379081] (vizanti_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.381610] (vizanti_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400067] (-) TimerEvent: {}
+[0.500422] (-) TimerEvent: {}
+[0.509622] (vizanti_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.511305] (vizanti_msgs) StdoutLine: {'line': b'-- Found actionlib_msgs: 4.2.4 (/opt/ros/humble/share/actionlib_msgs/cmake)\n'}
+[0.600553] (-) TimerEvent: {}
+[0.689236] (vizanti_cpp) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[0.700677] (-) TimerEvent: {}
+[0.800999] (-) TimerEvent: {}
+[0.901660] (-) TimerEvent: {}
+[0.926163] (vizanti_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.964385] (vizanti_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.981641] (vizanti_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.983217] (vizanti_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/su1jun/Capstone/colcon_ws/build/vizanti_cpp\n'}
+[0.991017] (vizanti_cpp) CommandEnded: {'returncode': 0}
+[0.992807] (vizanti_cpp) JobProgress: {'identifier': 'vizanti_cpp', 'progress': 'build'}
+[0.992842] (vizanti_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/su1jun/Capstone/colcon_ws/build/vizanti_cpp', '--', '-j4', '-l4'], 'cwd': '/home/su1jun/Capstone/colcon_ws/build/vizanti_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'su1jun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/su1jun'), ('OLDPWD', '/home/su1jun/Capstone'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'su1jun'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'su1jun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chateery:@/tmp/.ICE-unix/1486,unix/chateery:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ab67cd8c_ede3_4ed8_9e63_c736b0656a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7FS3P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/su1jun/Capstone/colcon_ws/build/vizanti_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.001774] (-) TimerEvent: {}
+[1.034348] (vizanti_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_consolidator\x1b[0m\n'}
+[1.070981] (vizanti_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_consolidator.dir/src/tf_consolidator.cpp.o\x1b[0m\n'}
+[1.102086] (-) TimerEvent: {}
+[1.202396] (-) TimerEvent: {}
+[1.207542] (vizanti_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302508] (-) TimerEvent: {}
+[1.402822] (-) TimerEvent: {}
+[1.503165] (-) TimerEvent: {}
+[1.566851] (vizanti_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.590461] (vizanti_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.603295] (-) TimerEvent: {}
+[1.614155] (vizanti_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.614345] (vizanti_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.614421] (vizanti_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.683988] (vizanti_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.703407] (-) TimerEvent: {}
+[1.778050] (vizanti_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.781410] (vizanti_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/su1jun/Capstone/colcon_ws/build/vizanti_msgs\n'}
+[1.789613] (vizanti_msgs) CommandEnded: {'returncode': 0}
+[1.790235] (vizanti_msgs) JobProgress: {'identifier': 'vizanti_msgs', 'progress': 'build'}
+[1.790732] (vizanti_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs', '--', '-j4', '-l4'], 'cwd': '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'su1jun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/su1jun'), ('OLDPWD', '/home/su1jun/Capstone'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'su1jun'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'su1jun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chateery:@/tmp/.ICE-unix/1486,unix/chateery:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ab67cd8c_ede3_4ed8_9e63_c736b0656a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7FS3P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.803525] (-) TimerEvent: {}
+[1.838031] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.855066] (vizanti_msgs) StdoutLine: {'line': b'[  1%] Built target vizanti_msgs__cpp\n'}
+[1.858538] (vizanti_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/get_node_parameters__functions.c.o\x1b[0m\n'}
+[1.863456] (vizanti_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/set_node_parameter__functions.c.o\x1b[0m\n'}
+[1.872827] (vizanti_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_vizanti_msgs\n'}
+[1.885521] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.890231] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.903638] (-) TimerEvent: {}
+[1.916572] (vizanti_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/get_node_parameters__type_support.cpp.o\x1b[0m\n'}
+[1.928234] (vizanti_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp.o\x1b[0m\n'}
+[2.003767] (-) TimerEvent: {}
+[2.089507] (vizanti_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/save_map__functions.c.o\x1b[0m\n'}
+[2.089761] (vizanti_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/set_node_parameter__type_support.cpp.o\x1b[0m\n'}
+[2.103898] (-) TimerEvent: {}
+[2.204261] (-) TimerEvent: {}
+[2.277660] (vizanti_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/load_map__functions.c.o\x1b[0m\n'}
+[2.304394] (-) TimerEvent: {}
+[2.373484] (vizanti_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/set_node_parameter__type_support.cpp.o\x1b[0m\n'}
+[2.404526] (-) TimerEvent: {}
+[2.405349] (vizanti_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/record_rosbag__functions.c.o\x1b[0m\n'}
+[2.504660] (-) TimerEvent: {}
+[2.542481] (vizanti_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/manage_node__functions.c.o\x1b[0m\n'}
+[2.580038] (vizanti_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\x1b[0m\n'}
+[2.604794] (-) TimerEvent: {}
+[2.705294] (-) TimerEvent: {}
+[2.721591] (vizanti_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/list_packages__functions.c.o\x1b[0m\n'}
+[2.740484] (vizanti_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o\x1b[0m\n'}
+[2.805415] (-) TimerEvent: {}
+[2.811234] (vizanti_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[2.825483] (vizanti_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/list_executables__functions.c.o\x1b[0m\n'}
+[2.905559] (-) TimerEvent: {}
+[3.002910] (vizanti_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libvizanti_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.005677] (-) TimerEvent: {}
+[3.106182] (-) TimerEvent: {}
+[3.149205] (vizanti_msgs) StdoutLine: {'line': b'[ 20%] Built target vizanti_msgs__rosidl_generator_c\n'}
+[3.184568] (vizanti_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/record_rosbag__type_support.cpp.o\x1b[0m\n'}
+[3.193117] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.198541] (vizanti_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/load_map__type_support.cpp.o\x1b[0m\n'}
+[3.206311] (-) TimerEvent: {}
+[3.251205] (vizanti_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/get_node_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.306445] (-) TimerEvent: {}
+[3.406843] (-) TimerEvent: {}
+[3.416967] (vizanti_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/set_node_parameter__type_support.cpp.o\x1b[0m\n'}
+[3.506977] (-) TimerEvent: {}
+[3.605511] (vizanti_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/record_rosbag__type_support.cpp.o\x1b[0m\n'}
+[3.607092] (-) TimerEvent: {}
+[3.707466] (-) TimerEvent: {}
+[3.807993] (-) TimerEvent: {}
+[3.897766] (vizanti_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/manage_node__type_support.cpp.o\x1b[0m\n'}
+[3.908156] (-) TimerEvent: {}
+[3.946239] (vizanti_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/manage_node__type_support.cpp.o\x1b[0m\n'}
+[4.008288] (-) TimerEvent: {}
+[4.049449] (vizanti_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/list_packages__type_support.cpp.o\x1b[0m\n'}
+[4.108421] (-) TimerEvent: {}
+[4.208515] (vizanti_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/save_map__type_support.cpp.o\x1b[0m\n'}
+[4.208747] (-) TimerEvent: {}
+[4.309094] (-) TimerEvent: {}
+[4.369181] (vizanti_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/list_executables__type_support.cpp.o\x1b[0m\n'}
+[4.409216] (-) TimerEvent: {}
+[4.501665] (vizanti_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/list_packages__type_support.cpp.o\x1b[0m\n'}
+[4.509342] (-) TimerEvent: {}
+[4.609736] (-) TimerEvent: {}
+[4.629424] (vizanti_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/list_executables__type_support.cpp.o\x1b[0m\n'}
+[4.709863] (-) TimerEvent: {}
+[4.810230] (-) TimerEvent: {}
+[4.863455] (vizanti_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.883384] (vizanti_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/load_map__type_support.cpp.o\x1b[0m\n'}
+[4.910461] (-) TimerEvent: {}
+[5.010939] (-) TimerEvent: {}
+[5.013820] (vizanti_msgs) StdoutLine: {'line': b'[ 37%] Built target vizanti_msgs__rosidl_typesupport_cpp\n'}
+[5.111068] (-) TimerEvent: {}
+[5.153613] (vizanti_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/record_rosbag__type_support.cpp.o\x1b[0m\n'}
+[5.211183] (-) TimerEvent: {}
+[5.311525] (-) TimerEvent: {}
+[5.366141] (vizanti_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.411659] (-) TimerEvent: {}
+[5.512159] (-) TimerEvent: {}
+[5.546477] (vizanti_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.548198] (vizanti_msgs) StdoutLine: {'line': b'writing vizanti_msgs.egg-info/PKG-INFO\n'}
+[5.549126] (vizanti_msgs) StdoutLine: {'line': b'writing dependency_links to vizanti_msgs.egg-info/dependency_links.txt\n'}
+[5.549974] (vizanti_msgs) StdoutLine: {'line': b'writing top-level names to vizanti_msgs.egg-info/top_level.txt\n'}
+[5.561778] (vizanti_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/manage_node__type_support.cpp.o\x1b[0m\n'}
+[5.564650] (vizanti_msgs) StdoutLine: {'line': b"reading manifest file 'vizanti_msgs.egg-info/SOURCES.txt'\n"}
+[5.566203] (vizanti_msgs) StdoutLine: {'line': b"writing manifest file 'vizanti_msgs.egg-info/SOURCES.txt'\n"}
+[5.570122] (vizanti_msgs) StdoutLine: {'line': b'[ 42%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.601648] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.612289] (-) TimerEvent: {}
+[5.615759] (vizanti_msgs) StdoutLine: {'line': b'[ 42%] Built target ament_cmake_python_build_vizanti_msgs_egg\n'}
+[5.635183] (vizanti_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/get_node_parameters__type_support_c.cpp.o\x1b[0m\n'}
+[5.659818] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.706459] (vizanti_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/get_node_parameters__type_support.c.o\x1b[0m\n'}
+[5.712419] (-) TimerEvent: {}
+[5.777911] (vizanti_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/list_packages__type_support.cpp.o\x1b[0m\n'}
+[5.796298] (vizanti_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/set_node_parameter__type_support.c.o\x1b[0m\n'}
+[5.812543] (-) TimerEvent: {}
+[5.913187] (-) TimerEvent: {}
+[5.937736] (vizanti_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/save_map__type_support.c.o\x1b[0m\n'}
+[6.013118] (-) TimerEvent: {}
+[6.065751] (vizanti_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/load_map__type_support.c.o\x1b[0m\n'}
+[6.113235] (-) TimerEvent: {}
+[6.130012] (vizanti_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/list_executables__type_support.cpp.o\x1b[0m\n'}
+[6.158104] (vizanti_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/record_rosbag__type_support.c.o\x1b[0m\n'}
+[6.213354] (-) TimerEvent: {}
+[6.265897] (vizanti_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/set_node_parameter__type_support_c.cpp.o\x1b[0m\n'}
+[6.272413] (vizanti_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/manage_node__type_support.c.o\x1b[0m\n'}
+[6.313477] (-) TimerEvent: {}
+[6.360345] (vizanti_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/list_packages__type_support.c.o\x1b[0m\n'}
+[6.413596] (-) TimerEvent: {}
+[6.447260] (vizanti_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/list_executables__type_support.c.o\x1b[0m\n'}
+[6.456734] (vizanti_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/save_map__type_support_c.cpp.o\x1b[0m\n'}
+[6.513730] (-) TimerEvent: {}
+[6.581869] (vizanti_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libvizanti_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.613864] (-) TimerEvent: {}
+[6.714279] (-) TimerEvent: {}
+[6.726235] (vizanti_msgs) StdoutLine: {'line': b'[ 59%] Built target vizanti_msgs__rosidl_typesupport_introspection_c\n'}
+[6.783146] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[6.797589] (vizanti_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.814403] (-) TimerEvent: {}
+[6.817732] (vizanti_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/get_node_parameters__type_support.cpp.o\x1b[0m\n'}
+[6.856120] (vizanti_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/load_map__type_support_c.cpp.o\x1b[0m\n'}
+[6.864832] (vizanti_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/set_node_parameter__type_support.cpp.o\x1b[0m\n'}
+[6.915270] (-) TimerEvent: {}
+[6.970404] (vizanti_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[6.981953] (vizanti_msgs) StdoutLine: {'line': b'[ 66%] Built target vizanti_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.002649] (vizanti_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/load_map__type_support.cpp.o\x1b[0m\n'}
+[7.015399] (-) TimerEvent: {}
+[7.019472] (vizanti_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/record_rosbag__type_support.cpp.o\x1b[0m\n'}
+[7.026587] (vizanti_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/record_rosbag__type_support_c.cpp.o\x1b[0m\n'}
+[7.048316] (vizanti_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/manage_node__type_support.cpp.o\x1b[0m\n'}
+[7.107700] (vizanti_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/list_packages__type_support.cpp.o\x1b[0m\n'}
+[7.113484] (vizanti_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/manage_node__type_support_c.cpp.o\x1b[0m\n'}
+[7.115519] (-) TimerEvent: {}
+[7.189644] (vizanti_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/list_executables__type_support.cpp.o\x1b[0m\n'}
+[7.215649] (-) TimerEvent: {}
+[7.316133] (-) TimerEvent: {}
+[7.316612] (vizanti_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.394921] (vizanti_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/list_packages__type_support_c.cpp.o\x1b[0m\n'}
+[7.416254] (-) TimerEvent: {}
+[7.454936] (vizanti_msgs) StdoutLine: {'line': b'[ 78%] Built target vizanti_msgs__rosidl_typesupport_c\n'}
+[7.505183] (vizanti_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/list_executables__type_support_c.cpp.o\x1b[0m\n'}
+[7.516387] (-) TimerEvent: {}
+[7.616881] (-) TimerEvent: {}
+[7.717358] (-) TimerEvent: {}
+[7.817716] (-) TimerEvent: {}
+[7.918068] (-) TimerEvent: {}
+[7.937351] (vizanti_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.018191] (-) TimerEvent: {}
+[8.030273] (vizanti_msgs) StdoutLine: {'line': b'[ 81%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.051917] (vizanti_msgs) StdoutLine: {'line': b'[ 81%] Built target vizanti_msgs\n'}
+[8.072825] (vizanti_msgs) StdoutLine: {'line': b'[ 82%] Built target vizanti_msgs__py\n'}
+[8.085474] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_generator_py\x1b[0m\n'}
+[8.104129] (vizanti_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_set_node_parameter_s.c.o\x1b[0m\n'}
+[8.105485] (vizanti_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_get_node_parameters_s.c.o\x1b[0m\n'}
+[8.105887] (vizanti_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_load_map_s.c.o\x1b[0m\n'}
+[8.112426] (vizanti_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_save_map_s.c.o\x1b[0m\n'}
+[8.118306] (-) TimerEvent: {}
+[8.218746] (-) TimerEvent: {}
+[8.272971] (vizanti_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_record_rosbag_s.c.o\x1b[0m\n'}
+[8.278341] (vizanti_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_manage_node_s.c.o\x1b[0m\n'}
+[8.288808] (vizanti_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_list_packages_s.c.o\x1b[0m\n'}
+[8.290258] (vizanti_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_list_executables_s.c.o\x1b[0m\n'}
+[8.318879] (-) TimerEvent: {}
+[8.419263] (-) TimerEvent: {}
+[8.477572] (vizanti_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vizanti_msgs/libvizanti_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.519373] (-) TimerEvent: {}
+[8.525828] (vizanti_msgs) StdoutLine: {'line': b'[ 93%] Built target vizanti_msgs__rosidl_generator_py\n'}
+[8.537525] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.537720] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.537929] (vizanti_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vizanti_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.551623] (vizanti_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.553788] (vizanti_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.554378] (vizanti_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.619681] (-) TimerEvent: {}
+[8.720074] (-) TimerEvent: {}
+[8.724281] (vizanti_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.733235] (vizanti_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.740570] (vizanti_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.793456] (vizanti_msgs) StdoutLine: {'line': b'[100%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.793787] (vizanti_msgs) StdoutLine: {'line': b'[100%] Built target vizanti_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.806251] (vizanti_msgs) StdoutLine: {'line': b'[100%] Built target vizanti_msgs__rosidl_typesupport_c__pyext\n'}
+[8.819552] (vizanti_msgs) CommandEnded: {'returncode': 0}
+[8.820827] (-) TimerEvent: {}
+[8.921077] (-) TimerEvent: {}
+[8.990486] (vizanti_msgs) JobProgress: {'identifier': 'vizanti_msgs', 'progress': 'install'}
+[8.998985] (vizanti_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs'], 'cwd': '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'su1jun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/su1jun'), ('OLDPWD', '/home/su1jun/Capstone'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'su1jun'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'su1jun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chateery:@/tmp/.ICE-unix/1486,unix/chateery:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ab67cd8c_ede3_4ed8_9e63_c736b0656a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7FS3P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.007216] (vizanti_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.007909] (vizanti_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.008619] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/rosidl_interfaces/vizanti_msgs\n'}
+[9.010075] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.010791] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__functions.h\n'}
+[9.011047] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.h\n'}
+[9.011265] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__type_support.h\n'}
+[9.011514] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__functions.h\n'}
+[9.011764] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.h\n'}
+[9.012016] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__type_support.h\n'}
+[9.012268] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__functions.h\n'}
+[9.012516] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.h\n'}
+[9.012772] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__type_support.h\n'}
+[9.013028] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__functions.h\n'}
+[9.013325] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.h\n'}
+[9.013563] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__type_support.h\n'}
+[9.013801] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__functions.h\n'}
+[9.014006] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.h\n'}
+[9.014256] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__type_support.h\n'}
+[9.014503] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__functions.h\n'}
+[9.014753] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.h\n'}
+[9.015000] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__type_support.h\n'}
+[9.015250] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__functions.h\n'}
+[9.015500] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.h\n'}
+[9.015746] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__type_support.h\n'}
+[9.016021] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__functions.h\n'}
+[9.016254] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.h\n'}
+[9.016501] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__type_support.h\n'}
+[9.016824] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.h\n'}
+[9.017293] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.h\n'}
+[9.017535] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.h\n'}
+[9.017779] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.h\n'}
+[9.018023] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.h\n'}
+[9.018272] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.h\n'}
+[9.018504] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.h\n'}
+[9.018768] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.h\n'}
+[9.019547] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.sh\n'}
+[9.019756] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.dsv\n'}
+[9.020543] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.020796] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[9.021079] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_c.h\n'}
+[9.021168] (-) TimerEvent: {}
+[9.021363] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_c.h\n'}
+[9.021553] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h\n'}
+[9.021792] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_c.h\n'}
+[9.022047] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_c.h\n'}
+[9.022283] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[9.022537] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_c.h\n'}
+[9.023125] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.023379] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_c.h\n'}
+[9.023628] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_c.h\n'}
+[9.023872] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_c.h\n'}
+[9.024120] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h\n'}
+[9.024365] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_c.h\n'}
+[9.024614] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_c.h\n'}
+[9.024859] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[9.025113] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_c.h\n'}
+[9.025826] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__builder.hpp\n'}
+[9.026069] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.hpp\n'}
+[9.026405] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__traits.hpp\n'}
+[9.026718] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__builder.hpp\n'}
+[9.026966] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.hpp\n'}
+[9.027288] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__traits.hpp\n'}
+[9.027609] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__builder.hpp\n'}
+[9.027851] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.hpp\n'}
+[9.028177] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__traits.hpp\n'}
+[9.028543] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__builder.hpp\n'}
+[9.028783] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.hpp\n'}
+[9.029157] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__traits.hpp\n'}
+[9.029448] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__builder.hpp\n'}
+[9.029689] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.hpp\n'}
+[9.030002] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__traits.hpp\n'}
+[9.030325] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__builder.hpp\n'}
+[9.030566] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.hpp\n'}
+[9.030898] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__traits.hpp\n'}
+[9.031289] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__builder.hpp\n'}
+[9.031543] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.hpp\n'}
+[9.031905] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__traits.hpp\n'}
+[9.032210] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__builder.hpp\n'}
+[9.032446] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.hpp\n'}
+[9.032768] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__traits.hpp\n'}
+[9.033104] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.hpp\n'}
+[9.033340] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.hpp\n'}
+[9.033571] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.hpp\n'}
+[9.033800] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.hpp\n'}
+[9.034029] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.hpp\n'}
+[9.034260] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.hpp\n'}
+[9.034498] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.hpp\n'}
+[9.034733] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.hpp\n'}
+[9.035856] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.036184] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.036264] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.036383] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.036641] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.036892] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.037160] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.037401] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.037642] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.038252] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.038492] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.038744] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.038984] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.039224] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.039460] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.039700] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.039945] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.040258] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.sh\n'}
+[9.040556] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.dsv\n'}
+[9.041409] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[9.041579] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.041753] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.041935] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[9.042768] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/__init__.py\n'}
+[9.043022] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.043558] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.043728] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.043899] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/libvizanti_msgs__rosidl_generator_py.so\n'}
+[9.044118] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/__init__.py\n'}
+[9.044561] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters.py\n'}
+[9.044892] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters_s.c\n'}
+[9.045073] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables.py\n'}
+[9.045242] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables_s.c\n'}
+[9.045404] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages.py\n'}
+[9.045564] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages_s.c\n'}
+[9.045733] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map.py\n'}
+[9.045899] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map_s.c\n'}
+[9.046066] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node.py\n'}
+[9.046232] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node_s.c\n'}
+[9.046401] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag.py\n'}
+[9.046576] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag_s.c\n'}
+[9.046745] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map.py\n'}
+[9.046907] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map_s.c\n'}
+[9.047103] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter.py\n'}
+[9.047298] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter_s.c\n'}
+[9.047494] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.047688] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.047880] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.048194] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.048466] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.048744] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.049702] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.idl\n'}
+[9.050036] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.idl\n'}
+[9.050366] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.idl\n'}
+[9.050681] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.idl\n'}
+[9.050988] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.idl\n'}
+[9.051289] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.idl\n'}
+[9.051584] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.idl\n'}
+[9.053278] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.idl\n'}
+[9.053378] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.srv\n'}
+[9.053452] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Request.msg\n'}
+[9.053575] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Response.msg\n'}
+[9.053658] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.srv\n'}
+[9.053773] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Request.msg\n'}
+[9.053851] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Response.msg\n'}
+[9.054044] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.srv\n'}
+[9.054433] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Request.msg\n'}
+[9.054645] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Response.msg\n'}
+[9.054951] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.srv\n'}
+[9.055474] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Request.msg\n'}
+[9.055629] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Response.msg\n'}
+[9.055949] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.srv\n'}
+[9.056345] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Request.msg\n'}
+[9.056573] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Response.msg\n'}
+[9.056889] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.srv\n'}
+[9.057272] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Request.msg\n'}
+[9.057508] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Response.msg\n'}
+[9.057820] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.srv\n'}
+[9.058197] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Request.msg\n'}
+[9.058423] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Response.msg\n'}
+[9.058734] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.srv\n'}
+[9.059113] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Request.msg\n'}
+[9.059332] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Response.msg\n'}
+[9.059861] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/package_run_dependencies/vizanti_msgs\n'}
+[9.060410] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/parent_prefix_path/vizanti_msgs\n'}
+[9.060725] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.sh\n'}
+[9.061020] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.dsv\n'}
+[9.061342] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/path.sh\n'}
+[9.061617] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/environment/path.dsv\n'}
+[9.061899] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.bash\n'}
+[9.062179] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.sh\n'}
+[9.062545] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.zsh\n'}
+[9.062909] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.dsv\n'}
+[9.063034] (vizanti_msgs) StdoutLine: {'line': b'-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/package.dsv\n'}
+[9.072766] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/ament_index/resource_index/packages/vizanti_msgs\n'}
+[9.073245] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.073567] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.073898] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.074107] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.074334] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.074637] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.074918] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.075207] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig.cmake\n'}
+[9.075448] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig-version.cmake\n'}
+[9.075743] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/package.xml\n'}
+[9.076607] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_c.so\n'}
+[9.077057] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_c.so" to ""\n'}
+[9.077706] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.078417] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.078976] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.079346] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.080046] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_c.so\n'}
+[9.080408] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.081021] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.081478] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.082097] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.082524] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.083141] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_cpp.so\n'}
+[9.083482] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.121279] (-) TimerEvent: {}
+[9.136567] (vizanti_msgs) StdoutLine: {'line': b"Listing '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs'...\n"}
+[9.136765] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/__init__.py'...\n"}
+[9.136861] (vizanti_msgs) StdoutLine: {'line': b"Listing '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv'...\n"}
+[9.136943] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/__init__.py'...\n"}
+[9.137042] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters.py'...\n"}
+[9.137131] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables.py'...\n"}
+[9.137205] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages.py'...\n"}
+[9.137291] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map.py'...\n"}
+[9.137362] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node.py'...\n"}
+[9.137429] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag.py'...\n"}
+[9.137498] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map.py'...\n"}
+[9.137568] (vizanti_msgs) StdoutLine: {'line': b"Compiling '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter.py'...\n"}
+[9.142868] (vizanti_msgs) StdoutLine: {'line': b'-- Installing: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_py.so\n'}
+[9.143236] (vizanti_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_py.so" to ""\n'}
+[9.143487] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport.cmake\n'}
+[9.143646] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.143790] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.143913] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.144097] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.144213] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.144394] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.144501] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.144643] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.144913] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.145051] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.145227] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.145367] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.145514] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.145634] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.145793] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.145918] (vizanti_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.149477] (vizanti_msgs) CommandEnded: {'returncode': 0}
+[9.221380] (-) TimerEvent: {}
+[9.321865] (-) TimerEvent: {}
+[9.345976] (vizanti_msgs) JobEnded: {'identifier': 'vizanti_msgs', 'rc': 0}
+[9.346761] (vizanti_server) JobStarted: {'identifier': 'vizanti_server'}
+[9.350308] (vizanti_demos) JobStarted: {'identifier': 'vizanti_demos'}
+[9.357524] (vizanti_server) JobProgress: {'identifier': 'vizanti_server', 'progress': 'cmake'}
+[9.359710] (vizanti_server) Command: {'cmd': ['/usr/bin/cmake', '/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_server', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/colcon_ws/install/vizanti_server'], 'cwd': '/home/su1jun/Capstone/colcon_ws/build/vizanti_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'su1jun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/su1jun'), ('OLDPWD', '/home/su1jun/Capstone'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'su1jun'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'su1jun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chateery:@/tmp/.ICE-unix/1486,unix/chateery:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ab67cd8c_ede3_4ed8_9e63_c736b0656a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7FS3P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/su1jun/Capstone/colcon_ws/build/vizanti_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/opt/ros/humble')]), 'shell': False}
+[9.361974] (vizanti_demos) JobProgress: {'identifier': 'vizanti_demos', 'progress': 'cmake'}
+[9.363583] (vizanti_demos) Command: {'cmd': ['/usr/bin/cmake', '/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_demos', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/colcon_ws/install/vizanti_demos'], 'cwd': '/home/su1jun/Capstone/colcon_ws/build/vizanti_demos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'su1jun'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/su1jun'), ('OLDPWD', '/home/su1jun/Capstone'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'su1jun'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'su1jun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chateery:@/tmp/.ICE-unix/1486,unix/chateery:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ab67cd8c_ede3_4ed8_9e63_c736b0656a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7FS3P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/su1jun/Capstone/colcon_ws/build/vizanti_demos'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/opt/ros/humble')]), 'shell': False}
+[9.374772] (vizanti_server) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.383218] (vizanti_demos) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.422002] (-) TimerEvent: {}
+[9.522444] (-) TimerEvent: {}
+[9.525468] (vizanti_demos) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.525670] (vizanti_server) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.533500] (vizanti_demos) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.533693] (vizanti_server) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.565406] (vizanti_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.565616] (vizanti_demos) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.568185] (vizanti_demos) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.568355] (vizanti_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.575119] (vizanti_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.575327] (vizanti_demos) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.588229] (vizanti_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.588445] (vizanti_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.605608] (vizanti_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.605820] (vizanti_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.622594] (-) TimerEvent: {}
+[9.670521] (vizanti_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.671350] (vizanti_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.671973] (vizanti_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.672887] (vizanti_demos) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.722744] (-) TimerEvent: {}
+[9.802977] (vizanti_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.807920] (vizanti_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.822892] (-) TimerEvent: {}
+[9.923324] (-) TimerEvent: {}
+[9.988048] (vizanti_server) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[9.989220] (vizanti_server) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[9.998530] (vizanti_demos) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[9.998880] (vizanti_demos) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[10.011650] (vizanti_server) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[10.018648] (vizanti_demos) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[10.023462] (-) TimerEvent: {}
+[10.123917] (-) TimerEvent: {}
+[10.224378] (-) TimerEvent: {}
+[10.235306] (vizanti_server) StdoutLine: {'line': b'-- Found vizanti_msgs: 0.1.0 (/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake)\n'}
+[10.245903] (vizanti_demos) StdoutLine: {'line': b'-- Found vizanti_msgs: 0.1.0 (/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/share/vizanti_msgs/cmake)\n'}
+[10.324523] (-) TimerEvent: {}
+[10.425088] (-) TimerEvent: {}
+[10.529104] (-) TimerEvent: {}
+[10.588952] (vizanti_server) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:23 (find_package):\n'}
+[10.589310] (vizanti_server) StderrLine: {'line': b'  By not providing "Findrosbridge_suite.cmake" in CMAKE_MODULE_PATH this\n'}
+[10.589509] (vizanti_server) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[10.589690] (vizanti_server) StderrLine: {'line': b'  "rosbridge_suite", but CMake did not find one.\n'}
+[10.589879] (vizanti_demos) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[10.590001] (vizanti_server) StderrLine: {'line': b'\n'}
+[10.590175] (vizanti_server) StderrLine: {'line': b'  Could not find a package configuration file provided by "rosbridge_suite"\n'}
+[10.590338] (vizanti_server) StderrLine: {'line': b'  with any of the following names:\n'}
+[10.590485] (vizanti_server) StderrLine: {'line': b'\n'}
+[10.590639] (vizanti_server) StderrLine: {'line': b'    rosbridge_suiteConfig.cmake\n'}
+[10.590796] (vizanti_server) StderrLine: {'line': b'    rosbridge_suite-config.cmake\n'}
+[10.590929] (vizanti_server) StderrLine: {'line': b'\n'}
+[10.591071] (vizanti_server) StderrLine: {'line': b'  Add the installation prefix of "rosbridge_suite" to CMAKE_PREFIX_PATH or\n'}
+[10.591208] (vizanti_server) StderrLine: {'line': b'  set "rosbridge_suite_DIR" to a directory containing one of the above files.\n'}
+[10.591358] (vizanti_server) StderrLine: {'line': b'  If "rosbridge_suite" provides a separate development package or SDK, be\n'}
+[10.591494] (vizanti_server) StderrLine: {'line': b'  sure it has been installed.\n'}
+[10.591619] (vizanti_server) StderrLine: {'line': b'\n'}
+[10.591787] (vizanti_server) StderrLine: {'line': b'\x1b[0m\n'}
+[10.592183] (vizanti_server) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.592361] (vizanti_server) StdoutLine: {'line': b'See also "/home/su1jun/Capstone/colcon_ws/build/vizanti_server/CMakeFiles/CMakeOutput.log".\n'}
+[10.602823] (vizanti_server) CommandEnded: {'returncode': 1}
+[10.629635] (-) TimerEvent: {}
+[10.678247] (vizanti_server) JobEnded: {'identifier': 'vizanti_server', 'rc': 1}
+[10.729756] (-) TimerEvent: {}
+[10.830100] (-) TimerEvent: {}
+[10.930452] (-) TimerEvent: {}
+[10.938765] (vizanti_demos) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.946097] (vizanti_demos) StdoutLine: {'line': b'-- Generating done\n'}
+[10.948002] (vizanti_demos) StdoutLine: {'line': b'-- Build files have been written to: /home/su1jun/Capstone/colcon_ws/build/vizanti_demos\n'}
+[10.955111] (vizanti_demos) JobEnded: {'identifier': 'vizanti_demos', 'rc': 'SIGINT'}
+[11.030600] (-) TimerEvent: {}
+[11.130928] (-) TimerEvent: {}
+[11.231266] (-) TimerEvent: {}
+[11.331592] (-) TimerEvent: {}
+[11.431918] (-) TimerEvent: {}
+[11.532258] (-) TimerEvent: {}
+[11.632600] (-) TimerEvent: {}
+[11.732930] (-) TimerEvent: {}
+[11.833289] (-) TimerEvent: {}
+[11.933607] (-) TimerEvent: {}
+[12.033978] (-) TimerEvent: {}
+[12.134320] (-) TimerEvent: {}
+[12.234693] (-) TimerEvent: {}
+[12.335078] (-) TimerEvent: {}
+[12.427658] (vizanti_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_consolidator\x1b[0m\n'}
+[12.435213] (-) TimerEvent: {}
+[12.535604] (-) TimerEvent: {}
+[12.635920] (-) TimerEvent: {}
+[12.736232] (-) TimerEvent: {}
+[12.836582] (-) TimerEvent: {}
+[12.894648] (vizanti_cpp) StdoutLine: {'line': b'[100%] Built target tf_consolidator\n'}
+[12.904041] (vizanti_cpp) JobEnded: {'identifier': 'vizanti_cpp', 'rc': 'SIGINT'}
+[12.914620] (vizanti) JobSkipped: {'identifier': 'vizanti'}
+[12.914772] (-) EventReactorShutdown: {}

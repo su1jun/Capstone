@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target tf_consolidator[0m
+[100%] Built target tf_consolidator
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/lib/vizanti_cpp/tf_consolidator
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/ament_index/resource_index/package_run_dependencies/vizanti_cpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/ament_index/resource_index/parent_prefix_path/vizanti_cpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/environment/path.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.bash
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.sh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.dsv
+-- Symlinking: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/package.dsv
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/ament_index/resource_index/packages/vizanti_cpp
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/cmake/vizanti_cppConfig.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/cmake/vizanti_cppConfig-version.cmake
+-- Up-to-date symlink: /home/su1jun/Capstone/colcon_ws/install/vizanti_cpp/share/vizanti_cpp/package.xml

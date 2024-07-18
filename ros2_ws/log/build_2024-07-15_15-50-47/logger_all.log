@@ -1,0 +1,635 @@
+[0.108s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b767dc2eb90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b767dc2e500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b767dc2e500>>, mixin_verb=('build',))
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/su1jun/Capstone/ros2_ws'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/capstone) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/capstone' with type 'ros.ament_cmake' and name 'capstone'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hardware) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_hardware' with type 'ros.ament_cmake' and name 'dynamixel_hardware'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_python' and name 'robot'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/su1jun/Capstone/colcon_ws/install
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/su1jun/Capstone/ros2_ws/install
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 372 installed packages in /opt/ros/humble
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/articubot_one', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'capstone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'capstone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/capstone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/capstone', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/capstone', 'symlink_install': True, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/dynamixel_hardware', 'symlink_install': True, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/robot', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/robot', 'symlink_install': True, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/serial', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[0.404s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/serial' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/su1jun/Capstone/ros2_ws/src/serial'
+[0.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/articubot_one' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/su1jun/Capstone/ros2_ws/src/articubot_one'
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/capstone' with build type 'ament_cmake'
+[0.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/su1jun/Capstone/ros2_ws/src/capstone'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial -- -j4 -l4
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/articubot_one -- -j4 -l4
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/capstone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/capstone -- -j4 -l4
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/articubot_one -- -j4 -l4
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/capstone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/capstone -- -j4 -l4
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/capstone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/capstone
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/articubot_one
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial -- -j4 -l4
+[0.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(capstone)
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone' for CMake module files
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone' for CMake config files
+[0.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('capstone', 'cmake_prefix_path')
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/hook/cmake_prefix_path.ps1'
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/hook/cmake_prefix_path.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/hook/cmake_prefix_path.sh'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/bin'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/lib/pkgconfig/capstone.pc'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/lib/python3.10/site-packages'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/bin'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.sh'
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/capstone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/capstone
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.bash'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.zsh'
+[0.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/capstone/share/colcon-core/packages/capstone)
+[0.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one' for CMake module files
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one' for CMake config files
+[0.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/articubot_one
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/bin'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/bin'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(capstone)
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone' for CMake module files
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone' for CMake config files
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('capstone', 'cmake_prefix_path')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/lib/pkgconfig/capstone.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/capstone/bin'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/capstone/share/capstone/package.zsh'
+[0.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/capstone/share/colcon-core/packages/capstone)
+[0.746s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/dynamixel_hardware' with build type 'ament_cmake'
+[0.746s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/su1jun/Capstone/ros2_ws/src/dynamixel_hardware'
+[0.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware -- -j4 -l4
+[0.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one' for CMake module files
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one' for CMake config files
+[0.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/bin'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/articubot_one/bin'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.815s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/robot' with build type 'ament_python'
+[0.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/hook/ament_prefix_path.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial
+[1.151s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/su1jun/Capstone/ros2_ws/src/robot'
+[1.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial' for CMake module files
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial' for CMake config files
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/lib'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/lib/python3.10/site-packages'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/bin'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.bash'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.zsh'
+[1.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/serial/share/colcon-core/packages/serial)
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware -- -j4 -l4
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware
+[1.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial' for CMake module files
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial' for CMake config files
+[1.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/lib'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/bin'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/lib/pkgconfig/serial.pc'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/lib/python3.10/site-packages'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial/bin'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.sh'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.bash'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial/share/serial/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/serial/share/colcon-core/packages/serial)
+[1.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[1.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/su1jun/Capstone/ros2_ws/src/sllidar_ros2'
+[1.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware' for CMake module files
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware' for CMake config files
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/dynamixel_hardware
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/lib'
+[1.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/lib/python3.10/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/bin'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[1.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware' for CMake module files
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware' for CMake config files
+[1.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/lib'
+[1.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/bin'
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/lib/python3.10/site-packages'
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/bin'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[1.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[1.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[1.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/su1jun/Capstone/ros2_ws/src/diffdrive_arduino'
+[1.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2:/home/su1jun/Capstone/ros2_ws/install/capstone:/home/su1jun/Capstone/ros2_ws/install/articubot_one:/home/su1jun/Capstone/colcon_ws/install/vizanti:/home/su1jun/Capstone/colcon_ws/install/vizanti_server:/home/su1jun/Capstone/colcon_ws/install/vizanti_demos:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/home/su1jun/Capstone/colcon_ws/install/vizanti_cpp:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble LD_LIBRARY_PATH=/home/su1jun/Capstone/ros2_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[1.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs
+[1.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/sllidar_ros2
+[1.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2' for CMake module files
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2' for CMake config files
+[1.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/sllidar_ros2
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/lib'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/bin'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/bin'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs' for CMake module files
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs' for CMake config files
+[1.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib'
+[1.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo_msgs
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/bin'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/bin'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[1.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[1.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2' for CMake module files
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2' for CMake config files
+[1.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/lib'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/bin'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/bin'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs' for CMake module files
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs' for CMake config files
+[1.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib'
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/bin'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/bin'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[1.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[1.662s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[1.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[1.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.963s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/su1jun/Capstone/ros2_ws/src/serial_motor_demo/serial_motor_demo'
+[1.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/robot': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build --no-deps symlink_data
+[2.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data
+[2.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath_develop')
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/build/robot/share/robot/hook/pythonpath_develop.ps1'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/build/robot/share/robot/hook/pythonpath_develop.dsv'
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/build/robot/share/robot/hook/pythonpath_develop.sh'
+[2.552s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/robot' for CMake module files
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/robot' for CMake config files
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/robot/lib'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/robot/bin'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/robot/lib/pkgconfig/robot.pc'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages'
+[2.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[2.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/hook/pythonpath.ps1'
+[2.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/robot' returned '0': PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/robot/build --no-deps symlink_data
+[2.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/hook/pythonpath.dsv'
+[2.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/hook/pythonpath.sh'
+[2.556s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/robot/bin'
+[2.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[2.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/package.ps1'
+[2.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/package.dsv'
+[2.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/package.sh'
+[2.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/package.bash'
+[2.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/robot/share/robot/package.zsh'
+[2.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/robot/share/colcon-core/packages/robot)
+[2.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[2.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[2.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/lib:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/su1jun/Capstone/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data
+[2.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[2.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[2.944s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo' for CMake module files
+[2.944s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo' for CMake config files
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/lib'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/bin'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages'
+[2.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[2.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[2.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[2.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[2.948s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/bin'
+[2.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[2.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[2.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[2.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[4.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino' returned '2': AMENT_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/su1jun/Capstone/ros2_ws/install/serial:/home/su1jun/Capstone/ros2_ws/install/sllidar_ros2:/home/su1jun/Capstone/ros2_ws/install/capstone:/home/su1jun/Capstone/ros2_ws/install/articubot_one:/home/su1jun/Capstone/colcon_ws/install/vizanti:/home/su1jun/Capstone/colcon_ws/install/vizanti_server:/home/su1jun/Capstone/colcon_ws/install/vizanti_demos:/home/su1jun/Capstone/colcon_ws/install/vizanti_msgs:/home/su1jun/Capstone/colcon_ws/install/vizanti_cpp:/home/su1jun/Capstone/ros2_ws/install/robot:/opt/ros/humble LD_LIBRARY_PATH=/home/su1jun/Capstone/ros2_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[4.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[4.655s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino' for CMake module files
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino' for CMake config files
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/bin'
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/bin'
+[4.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[4.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[4.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[4.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/su1jun/Capstone/ros2_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[4.670s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.670s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.671s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.671s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.680s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.680s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.680s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.696s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.697s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/su1jun/Capstone/ros2_ws/install/local_setup.ps1'
+[4.698s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/su1jun/Capstone/ros2_ws/install/_local_setup_util_ps1.py'
+[4.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/su1jun/Capstone/ros2_ws/install/setup.ps1'
+[4.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/su1jun/Capstone/ros2_ws/install/local_setup.sh'
+[4.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/su1jun/Capstone/ros2_ws/install/_local_setup_util_sh.py'
+[4.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/su1jun/Capstone/ros2_ws/install/setup.sh'
+[4.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/su1jun/Capstone/ros2_ws/install/local_setup.bash'
+[4.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/su1jun/Capstone/ros2_ws/install/setup.bash'
+[4.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/su1jun/Capstone/ros2_ws/install/local_setup.zsh'
+[4.709s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/su1jun/Capstone/ros2_ws/install/setup.zsh'

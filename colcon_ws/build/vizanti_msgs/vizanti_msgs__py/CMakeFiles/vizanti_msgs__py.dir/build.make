@@ -176,6 +176,7 @@ rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
 rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/actionlib_msgs/msg/GoalID.idl
