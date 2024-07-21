@@ -4,19 +4,19 @@
     <xacro:include filename="inertial_macros.xacro"/>
 
 
-    <xacro:property name="chassis_length" value="0.335"/>
-    <xacro:property name="chassis_width" value="0.265"/>
-    <xacro:property name="chassis_height" value="0.482"/> <!-- 0.138 -->
-    <xacro:property name="chassis_mass" value="1.0"/>
-    <xacro:property name="wheel_radius" value="0.066"/> <!-- 0.066 -->
-    <xacro:property name="wheel_thickness" value="0.036"/> <!-- 0.026 -->
+    <xacro:property name="chassis_length" value="0.361"/> <!-- 0.335 -->
+    <xacro:property name="chassis_width" value="0.351"/> <!-- 0.261 -->
+    <xacro:property name="chassis_height" value="0.409"/> <!-- 0.482 <- 0.138 -->
+    <xacro:property name="chassis_mass" value="10.0"/> <!-- 1.0 -->
+    <xacro:property name="wheel_radius" value="0.033"/> <!-- 0.066 -->
+    <xacro:property name="wheel_thickness" value="0.026"/> <!-- 0.026 -->
     <xacro:property name="wheel_mass" value="0.05"/>
-    <xacro:property name="wheel_offset_x" value="0.226"/>
-    <xacro:property name="wheel_offset_y" value="0.1485"/>
-    <xacro:property name="wheel_offset_z" value="0.01"/>
-    <xacro:property name="caster_wheel_radius" value="0.02"/> <!-- 0.01 -->
+    <xacro:property name="wheel_offset_x" value="0.261"/>
+    <xacro:property name="wheel_offset_y" value="0.1776"/>
+    <xacro:property name="wheel_offset_z" value="0.0185"/>
+    <xacro:property name="caster_wheel_radius" value="0.014"/> <!-- 0.2 <- 0.01 -->
     <xacro:property name="caster_wheel_mass" value="0.01"/>
-    <xacro:property name="caster_wheel_offset_x" value="0.075"/>
+    <xacro:property name="caster_wheel_offset_x" value="0.089"/>
     <xacro:property name="caster_wheel_offset_z" value="${wheel_offset_z - wheel_radius + caster_wheel_radius}"/>
 
     <material name="white">
@@ -87,7 +87,7 @@
                 <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
             </geometry>
         </collision>
-        <xacro:inertial_box mass="0.5" x="${chassis_length}" y="${chassis_width}" z="${chassis_height}">
+        <xacro:inertial_box mass="8.5" x="${chassis_length}" y="${chassis_width}" z="${chassis_height}">
             <origin xyz="${chassis_length/2} 0 ${chassis_height/2}" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>

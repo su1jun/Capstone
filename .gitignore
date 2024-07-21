@@ -1,0 +1,9 @@
+# Ignore directories
+
+# ros2
+build/
+install/
+log/
+
+# nodejs
+node_modules/
