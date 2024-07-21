@@ -1,7 +1,0 @@
-/home/su1jun/Capstone/colcon_ws/build/vizanti/CMakeFiles/uninstall.dir
-/home/su1jun/Capstone/colcon_ws/build/vizanti/CMakeFiles/vizanti_uninstall.dir
-/home/su1jun/Capstone/colcon_ws/build/vizanti/CMakeFiles/edit_cache.dir
-/home/su1jun/Capstone/colcon_ws/build/vizanti/CMakeFiles/rebuild_cache.dir
-/home/su1jun/Capstone/colcon_ws/build/vizanti/CMakeFiles/list_install_components.dir
-/home/su1jun/Capstone/colcon_ws/build/vizanti/CMakeFiles/install.dir
-/home/su1jun/Capstone/colcon_ws/build/vizanti/CMakeFiles/install/local.dir

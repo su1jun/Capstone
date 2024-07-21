@@ -1,7 +1,0 @@
-RPi.GPIO
-cv2
-cv_bridge
-matplotlib
-numpy
-serial
-setuptools
