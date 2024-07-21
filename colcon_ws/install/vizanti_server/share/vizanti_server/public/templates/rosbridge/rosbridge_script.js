@@ -1,1 +1,0 @@
-/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_server/public/templates/rosbridge/rosbridge_script.js

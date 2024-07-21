@@ -1,1 +1,0 @@
-/home/su1jun/Capstone/colcon_ws/build/vizanti_msgs/ament_cmake_core/vizanti_msgsConfig-version.cmake

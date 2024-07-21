@@ -1,1 +1,0 @@
-/home/su1jun/Capstone/colcon_ws/build/vizanti/ament_cmake_core/vizantiConfig.cmake

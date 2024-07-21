@@ -1,1 +1,0 @@
-/home/su1jun/Capstone/ros2_ws/build/serial/ament_cmake_core/serialConfig-version.cmake

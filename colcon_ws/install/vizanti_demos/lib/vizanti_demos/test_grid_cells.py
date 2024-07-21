@@ -1,1 +1,0 @@
-/home/su1jun/Capstone/colcon_ws/src/vizanti/vizanti_demos/scripts/test_grid_cells.py

@@ -1,6 +1,0 @@
-Invoking command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/articubot_one
-Invoked command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/su1jun/Capstone/ros2_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/su1jun/Capstone/ros2_ws/install/articubot_one
-Invoking command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/articubot_one -- -j4 -l4
-Invoked command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/su1jun/Capstone/ros2_ws/build/articubot_one -- -j4 -l4
-Invoking command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/articubot_one
-Invoked command in '/home/su1jun/Capstone/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/su1jun/Capstone/ros2_ws/build/articubot_one
